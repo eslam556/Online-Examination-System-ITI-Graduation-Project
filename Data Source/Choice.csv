@@ -1,0 +1,1360 @@
+Choice_ID,Choice_Text,Is_Correct,Question_ID
+1,a) To link tables,0,1
+2,b) To uniquely identify each record,1,1
+3,c) To store data types,0,1
+4,a) True,1,2
+5,b) False,0,2
+6,a) GET,0,3
+7,b) SELECT,1,3
+8,c) FETCH,0,3
+9,a) True,0,4
+10,b) False,1,4
+11,a) Simple Query Logic,0,5
+12,b) System Query Language,0,5
+13,c) Structured Query Language,1,5
+14,a) True,0,6
+15,b) False,1,6
+16,a) GROUP BY,0,7
+17,b) ORDER BY,1,7
+18,c) SORT,0,7
+19,a) True,1,8
+20,b) False,0,8
+21,a) ADD TABLE,0,9
+22,b) MAKE TABLE,0,9
+23,c) CREATE TABLE,1,9
+24,a) True,1,10
+25,b) False,0,10
+26,a) INNER JOIN,0,11
+27,b) FULL OUTER JOIN,1,11
+28,c) LEFT JOIN,0,11
+29,a) True,1,12
+30,b) False,0,12
+31,a) DELETE TABLE,0,13
+32,b) DROP TABLE,1,13
+33,c) REMOVE TABLE,0,13
+34,a) True,1,14
+35,b) False,0,14
+36,a) Ascending,1,15
+37,b) Descending,0,15
+38,c) Random,0,15
+39,a) True,1,16
+40,b) False,0,16
+41,a) INSERT,0,17
+42,b) SELECT,0,17
+43,c) UPDATE,1,17
+44,a) True,1,18
+45,b) False,0,18
+46,a) UNIQUE,0,19
+47,b) DISTINCT,1,19
+48,c) FILTER,0,19
+49,a) True,1,20
+50,b) False,0,20
+51,a) Data visualization,0,21
+52,b) Data collection,1,21
+53,c) Data modeling,0,21
+54,a) True,1,22
+55,b) False,0,22
+56,a) Python,1,23
+57,b) Java,0,23
+58,c) C++,0,23
+59,a) True,0,24
+60,b) False,1,24
+61,a) Build models,0,25
+62,b) Explore and understand data patterns,1,25
+63,c) Clean data,0,25
+64,a) True,1,26
+65,b) False,0,26
+66,a) Pie chart,0,27
+67,b) Line chart,0,27
+68,c) Histogram,1,27
+69,a) True,1,28
+70,b) False,0,28
+71,a) A common data point,0,29
+72,b) A missing value,0,29
+73,c) A data point significantly different from others,1,29
+74,a) True,1,30
+75,b) False,0,30
+76,a) Excel,0,31
+77,b) Power BI,0,31
+78,c) All of the above,1,31
+79,a) True,1,32
+80,b) False,0,32
+81,a) Summarize and analyze data,1,33
+82,b) Draw charts,0,33
+83,c) Store raw data,0,33
+84,a) True,1,34
+85,b) False,0,34
+86,a) Key Performance Indicator,1,35
+87,b) Knowledge Performance Index,0,35
+88,c) Key Predictive Insight,0,35
+89,a) True,1,36
+90,b) False,0,36
+91,a) Descriptive analysis,0,37
+92,b) Predictive analysis,1,37
+93,c) Diagnostic analysis,0,37
+94,a) True,1,38
+95,b) False,0,38
+96,a) Data dumping,0,39
+97,b) Data analysis,1,39
+98,c) Data cleaning,0,39
+99,a) True,1,40
+100,b) False,0,40
+101,a) Communicate data clearly and effectively,1,41
+102,b) Store large datasets,0,41
+103,c) Replace raw data with images,0,41
+104,a) True,1,42
+105,b) False,0,42
+106,a) Pie chart,0,43
+107,b) Histogram,0,43
+108,c) Line chart,1,43
+109,a) True,1,44
+110,b) False,0,44
+111,a) Diverging colors,0,45
+112,b) Random colors,0,45
+113,c) Gradient/sequential colors,1,45
+114,a) True,0,46
+115,b) False,1,46
+116,a) Slower loading times,0,47
+117,b) Real-time user interaction,1,47
+118,c) Static report generation,0,47
+119,a) True,1,48
+120,b) False,0,48
+121,a) Pie chart,0,49
+122,b) Box plot,1,49
+123,c) Area chart,0,49
+124,a) True,1,50
+125,b) False,0,50
+126,a) Histogram is for continuous data; bar chart is for categorical,1,51
+127,b) Bar charts show frequency; histograms don't,0,51
+128,c) No difference,0,51
+129,a) True,1,52
+130,b) False,0,52
+131,a) Show line trends,0,53
+132,b) Compare changes over time,0,53
+133,c) Visualize hierarchical data,1,53
+134,a) True,0,54
+135,b) False,1,54
+136,a) Notepad,0,55
+137,b) Tableau,1,55
+138,c) MS Paint,0,55
+139,a) True,1,56
+140,b) False,0,56
+141,a) Confuse the audience,0,57
+142,b) Hide details,0,57
+143,c) Deliver insights through narrative,1,57
+144,a) True,1,58
+145,b) False,0,58
+146,a) Line chart,0,59
+147,b) Area chart,0,59
+148,c) Box plot,1,59
+149,a) True,0,60
+150,b) False,1,60
+151,a) Track changes and collaborate on code,1,61
+152,b) Compile programs faster,0,61
+153,c) Encrypt code files,0,61
+154,a) True,1,62
+155,b) False,0,62
+156,a) Class is a blueprint; object is an instance,1,63
+157,b) Object defines behavior; class is data only,0,63
+158,c) No difference,0,63
+159,a) True,1,64
+160,b) False,0,64
+161,a) Swift,0,65
+162,b) Kotlin,1,65
+163,c) Ruby,0,65
+164,a) True,1,66
+165,b) False,0,66
+166,a) An iterative and flexible development methodology,1,67
+167,b) A programming language,0,67
+168,c) A version of Windows,0,67
+169,a) True,1,68
+170,b) False,0,68
+171,a) Agile,0,69
+172,b) Waterfall,1,69
+173,c) Scrum,0,69
+174,a) True,1,70
+175,b) False,0,70
+176,a) Host websites,0,71
+177,b) Provide a development environment with tools,1,71
+178,c) Execute network protocols,0,71
+179,a) True,0,72
+180,b) False,1,72
+181,a) Stack,0,73
+182,b) Queue,1,73
+183,c) Tree,0,73
+184,a) True,1,74
+185,b) False,0,74
+186,a) A function that calls itself,1,75
+187,b) Looping through arrays,0,75
+188,c) A database query,0,75
+189,a) True,1,76
+190,b) False,0,76
+191,a) Improve code readability and maintainability,1,77
+192,b) Increase execution time,0,77
+193,c) Add bugs intentionally,0,77
+194,a) True,1,78
+195,b) False,0,78
+196,a) Compiled languages convert code to machine code before execution; interpreted do it line by line,1,79
+197,b) Interpreted is faster,0,79
+198,c) No difference,0,79
+199,a) True,1,80
+200,b) False,0,80
+201,a) Assign new roles,0,81
+202,b) Reflect on what worked and what didn’t,1,81
+203,c) Create workshop invitations,0,81
+204,a) True,1,82
+205,b) False,0,82
+206,a) Photoshop,0,83
+207,b) Miro,1,83
+208,c) Notepad,0,83
+209,a) True,1,84
+210,b) False,0,84
+211,a) Define objectives and goals,1,85
+212,b) Present final results,0,85
+213,c) Skip planning,0,85
+214,a) True,1,86
+215,b) False,0,86
+216,a) Let everyone decide freely,0,87
+217,b) Assign roles and responsibilities,1,87
+218,c) Avoid communication,0,87
+219,a) True,1,88
+220,b) False,0,88
+221,a) Employee evaluations,0,89
+222,b) Budget plans,0,89
+223,c) Timeline of tasks and milestones,1,89
+224,a) True,1,90
+225,b) False,0,90
+226,a) Task decomposition,1,91
+227,b) Jumping to execution,0,91
+228,c) Ignoring details,0,91
+229,a) True,1,92
+230,b) False,0,92
+231,a) Enhanced collaboration and learning,1,93
+232,b) Slower performance,0,93
+233,c) Increased conflict,0,93
+234,a) True,1,94
+235,b) False,0,94
+236,a) Weather forecast,0,95
+237,b) Attendance list,0,95
+238,c) Output per time unit,1,95
+239,a) True,1,96
+240,b) False,0,96
+241,"a) Simple, Major, Accurate, Real, Timed",0,97
+242,"b) Strong, Measurable, Agile, Reliable, True",0,97
+243,"c) Specific, Measurable, Achievable, Relevant, Time-bound",1,97
+244,a) True,1,98
+245,b) False,0,98
+246,a) Ignoring updates,0,99
+247,b) Waiting till the end,0,99
+248,c) Progress checklists and status reports,1,99
+249,a) True,1,100
+250,b) False,0,100
+251,a) To dominate conversations,0,101
+252,b) To interrupt at the right moment,0,101
+253,c) To understand others clearly and respond effectively,1,101
+254,a) True,1,102
+255,b) False,0,102
+256,a) Upwork,1,103
+257,b) Instagram,0,103
+258,c) Reddit,0,103
+259,a) True,1,104
+260,b) False,0,104
+261,"a) Simple, Meaningful, Accurate, Realistic, Timely",0,105
+262,"b) Strong, Measurable, Adaptable, Reliable, Transparent",0,105
+263,"c) Specific, Measurable, Achievable, Relevant, Time-bound",1,105
+264,a) True,0,106
+265,b) False,1,106
+266,a) Excel Calculator,0,107
+267,b) Trello,1,107
+268,c) Facebook Messenger,0,107
+269,a) True,1,108
+270,b) False,0,108
+271,a) Inconsistent income,1,109
+272,b) Too many managers,0,109
+273,c) Guaranteed monthly salary,0,109
+274,a) True,1,110
+275,b) False,0,110
+276,a) Ignoring issues,0,111
+277,b) Communication,1,111
+278,c) Dominance,0,111
+279,a) True,1,112
+280,b) False,0,112
+281,"a) Listen, apologize, and find a solution",1,113
+282,b) Avoid them,0,113
+283,c) Argue back,0,113
+284,a) True,1,114
+285,b) False,0,114
+286,a) Casual and slang-heavy,0,115
+287,"b) Clear, polite, and concise",1,115
+288,c) Very emotional,0,115
+289,a) True,1,116
+290,b) False,0,116
+291,a) Deliver work on time and communicate transparently,1,117
+292,b) Ignore messages,0,117
+293,c) Overpromise and underdeliver,0,117
+294,a) True,1,118
+295,b) False,0,118
+296,a) Paint,0,119
+297,b) WordPad,0,119
+298,c) Google Calendar,1,119
+299,a) True,1,120
+300,b) False,0,120
+301,a) Developing only mobile apps,0,121
+302,b) Working on both frontend and backend of an application,1,121
+303,c) Designing only databases,0,121
+304,a) True,1,122
+305,b) False,0,122
+306,a) HTML,0,123
+307,b) Node.js,1,123
+308,c) CSS,0,123
+309,a) True,1,124
+310,b) False,0,124
+311,a) To design graphics,0,125
+312,b) To handle CSS,0,125
+313,c) To enable communication between frontend and backend,1,125
+314,a) True,1,126
+315,b) False,0,126
+316,a) SQL,1,127
+317,b) Photoshop,0,127
+318,c) Excel,0,127
+319,a) True,1,128
+320,b) False,0,128
+321,"a) Create, Read, Update, Delete",1,129
+322,"b) Copy, Run, Update, Deploy",0,129
+323,"c) Code, Repeat, Undo, Design",0,129
+324,a) True,1,130
+325,b) False,0,130
+326,a) Figma,0,131
+327,b) Git,1,131
+328,c) Excel,0,131
+329,a) True,0,132
+330,b) False,1,132
+331,a) Enhances graphics,0,133
+332,b) Connects frontend requests to backend logic,1,133
+333,c) Manages hosting,0,133
+334,a) True,1,134
+335,b) False,0,134
+336,a) To improve database performance,0,135
+337,b) To ensure applications work well on different device sizes,1,135
+338,c) To increase the number of users in the database,0,135
+339,a) True,1,136
+340,b) False,0,136
+341,a) HTTP,1,137
+342,b) FTP,0,137
+343,c) DNS,0,137
+344,a) True,1,138
+345,b) False,0,138
+346,a) Designing a UI,0,139
+347,b) Releasing the application for users to access,1,139
+348,c) Writing test cases,0,139
+349,a) True,1,140
+350,b) False,0,140
+351,a) To write more code,0,141
+352,b) To identify and fix defects,1,141
+353,c) To increase code length,0,141
+354,a) True,0,142
+355,b) False,1,142
+356,a) True,1,143
+357,b) False,0,143
+358,a) That software runs faster,0,144
+359,b) That new features are added,0,144
+360,c) That recent changes haven't broken existing functionality,1,144
+361,a) True,1,145
+362,b) False,0,145
+363,a) Unit testing,0,146
+364,b) Load testing,1,146
+365,c) Usability testing,0,146
+366,a) Verification ensures the product works; validation checks the spec,0,147
+367,b) They are the same process,0,147
+368,c) Verification checks if built right; validation checks if right product built,1,147
+369,a) True,1,148
+370,b) False,0,148
+371,a) Canva,0,149
+372,b) Jira,1,149
+373,c) Zoom,0,149
+374,a) True,1,150
+375,b) False,0,150
+376,a) True,1,151
+377,b) False,0,151
+378,a) To test network boundaries,0,152
+379,b) To test input values at their limits,1,152
+380,c) To test UI design,0,152
+381,a) Unit testing,0,153
+382,b) System testing,1,153
+383,c) Component testing,0,153
+384,a) True,1,154
+385,b) False,0,154
+386,a) True,1,155
+387,b) False,0,155
+388,a) Number of defects per unit size of code,1,156
+389,b) Number of features in software,0,156
+390,c) Testing speed,0,156
+391,a) To delay testing,0,157
+392,"b) To define inputs, execution steps, and expected results",1,157
+393,c) To track time spent,0,157
+394,a) Test closure,0,158
+395,b) Deployment,0,158
+396,c) Test case design,1,158
+397,a) True,1,159
+398,b) False,0,159
+399,a) Reduces server cost,0,160
+400,b) Provides quick feedback and faster releases,1,160
+401,c) Increases manual test effort,0,160
+402,a) To create complex interactions,0,161
+403,b) To make things look colorful,0,161
+404,c) To enhance user satisfaction and usability,1,161
+405,a) True,0,162
+406,b) False,1,162
+407,a) The security of the system,0,163
+408,b) How easy and efficient a product is to use,1,163
+409,c) The cost of product development,0,163
+410,a) True,1,164
+411,b) False,0,164
+412,a) Visibility of system status,1,165
+413,b) Increasing color contrast,0,165
+414,c) Adding animations,0,165
+415,a) True,1,166
+416,b) False,0,166
+417,a) The cost of the design,0,167
+418,b) The animation speed of elements,0,167
+419,"c) The perceived function of an element (e.g., a button looks clickable)",1,167
+420,a) True,1,168
+421,b) False,0,168
+422,"a) UX is about overall experience, UI is about visual layout",1,169
+423,b) They are the same,0,169
+424,c) UI is more important than UX,0,169
+425,a) True,1,170
+426,b) False,0,170
+427,a) It creates color palettes,0,171
+428,b) It provides insights into user behavior and needs,1,171
+429,c) It defines server architecture,0,171
+430,a) True,1,172
+431,b) False,0,172
+432,a) To visualize the user’s interactions and experience,1,173
+433,b) To create a wireframe,0,173
+434,c) To design backend services,0,173
+435,a) True,1,174
+436,b) False,0,174
+437,a) The size of the file,0,175
+438,b) The number of users visiting,0,175
+439,c) The mental effort required to use a product,1,175
+440,a) True,0,176
+441,b) False,1,176
+442,a) General principles for user-friendly design,1,177
+443,b) A type of color scheme,0,177
+444,c) User testing scripts,0,177
+445,a) True,1,178
+446,b) False,0,178
+447,a) Server logs,0,179
+448,b) Surveys and interviews,1,179
+449,c) Database queries,0,179
+450,a) True,1,180
+451,b) False,0,180
+452,a) Writing backend code,0,181
+453,b) Designing the layout and visual elements users interact with,1,181
+454,c) Managing server infrastructure,0,181
+455,a) True,0,182
+456,b) False,1,182
+457,a) The interface adjusts to different screen sizes and devices,1,183
+458,b) The server responds faster,0,183
+459,c) The design has animations,0,183
+460,a) True,1,184
+461,b) False,0,184
+462,a) To outline structure and layout of interface elements,1,185
+463,b) To store user data,0,185
+464,c) To design the backend logic,0,185
+465,a) True,0,186
+466,b) False,1,186
+467,"a) None, they are just for decoration",0,187
+468,b) They guide user attention and create emotional impact,1,187
+469,c) Only used in marketing,0,187
+470,a) True,1,188
+471,b) False,0,188
+472,a) Navigation bar,1,189
+473,b) Progress bar,0,189
+474,c) Tooltip,0,189
+475,a) True,0,190
+476,b) False,1,190
+477,"a) A design element’s ability to suggest its function (e.g., a button looks clickable)",1,191
+478,b) The price of a product,0,191
+479,c) The size of a layout,0,191
+480,a) True,1,192
+481,b) False,0,192
+482,a) They increase the number of elements,0,193
+483,b) They create alignment and visual balance,1,193
+484,c) They improve animations,0,193
+485,a) True,0,194
+486,b) False,1,194
+487,a) User reviews on app stores,0,195
+488,"b) Visual or audio response to user actions (e.g., button click)",1,195
+489,c) Product pricing,0,195
+490,a) True,1,196
+491,b) False,0,196
+492,a) A final application,0,197
+493,b) A working model of a design to test ideas,1,197
+494,c) A code library,0,197
+495,a) True,0,198
+496,b) False,1,198
+497,a) To manage server logs,0,199
+498,b) To ensure design consistency across all components,1,199
+499,c) To automate testing,0,199
+500,a) True,1,200
+501,b) False,0,200
+502,a) Create websites,0,201
+503,b) Manage hardware and software resources,1,201
+504,c) Write code automatically,0,201
+505,a) True,1,202
+506,b) False,0,202
+507,a) Basic Input Output System – initializes hardware during boot,1,203
+508,b) Binary Integrated Output System – runs applications,0,203
+509,c) Base Instruction Operating Software – controls memory,0,203
+510,a) True,1,204
+511,b) False,0,204
+512,"a) RAM stores permanent data, ROM is temporary",0,205
+513,"b) RAM is volatile and temporary, ROM is non-volatile and permanent",1,205
+514,c) There is no difference,0,205
+515,a) True,0,206
+516,b) False,1,206
+517,a) Visual Processing Network – improves graphics,0,207
+518,b) Virtual Private Network – sends spam emails,0,207
+519,c) Virtual Private Network – secures internet connections and privacy,1,207
+520,a) True,1,208
+521,b) False,0,208
+522,a) Design websites,0,209
+523,b) Manage user passwords,0,209
+524,"c) Store, retrieve, and manage data efficiently",1,209
+525,a) True,0,210
+526,b) False,1,210
+527,a) Malicious software that can harm or steal data,1,211
+528,b) A type of secure software,0,211
+529,c) Software that speeds up computers,0,211
+530,a) True,1,212
+531,b) False,0,212
+532,a) Connects physical wires in a network,0,213
+533,b) Translates domain names into IP addresses,1,213
+534,c) Encrypts internet traffic,0,213
+535,a) True,1,214
+536,b) False,0,214
+537,a) Directs data between devices and the internet,1,215
+538,b) Encrypts files,0,215
+539,c) Manages user permissions,0,215
+540,a) True,1,216
+541,b) False,0,216
+542,a) Creating physical devices from software,0,217
+543,b) Building websites in 3D,0,217
+544,c) Running multiple virtual machines on one physical hardware,1,217
+545,a) True,1,218
+546,b) False,0,218
+547,"a) A client requests services, a server provides them",1,219
+548,"b) A client builds the network, server destroys it",0,219
+549,c) They are the same,0,219
+550,a) True,1,220
+551,b) False,0,220
+552,a) Structure and content of web pages,1,221
+553,b) Styling web pages,0,221
+554,c) Managing databases,0,221
+555,a) True,1,222
+556,b) False,0,222
+557,a) True,0,223
+558,b) False,1,223
+559,a) Data Object Manager,0,224
+560,b) Document Object Model,1,224
+561,c) Dynamic Output Module,0,224
+562,a) True,1,225
+563,b) False,0,225
+564,a) Styling web pages,0,226
+565,b) Storing data in databases,0,226
+566,c) Building interactive and scalable web applications,1,226
+567,a) True,1,227
+568,b) False,0,227
+569,a) GET is faster because it uses encryption,0,228
+570,b) GET retrieves data; POST submits data to the server,1,228
+571,c) POST is used only for login pages,0,228
+572,a) True,1,229
+573,b) False,0,229
+574,a) A web app that loads a single HTML page and updates dynamically,1,230
+575,b) A site with one webpage only,0,230
+576,c) An offline desktop application,0,230
+577,a) True,0,231
+578,b) False,1,231
+579,a) Design web page layout,0,232
+580,b) Allow applications to communicate with each other,1,232
+581,c) Encrypt website files,0,232
+582,a) True,1,233
+583,b) False,0,233
+584,a) Style the web using templates,0,234
+585,b) Manage API responses,0,234
+586,c) Bundle and optimize assets for web applications,1,234
+587,a) True,1,235
+588,b) False,0,235
+589,a) A tool for video editing,0,236
+590,b) A web app that uses modern capabilities to deliver app-like experiences,1,236
+591,c) A browser extension,0,236
+592,a) Designing for mobile screens before scaling to larger devices,1,237
+593,b) Designing for desktop first,0,237
+594,c) None of the above,0,237
+595,a) True,1,238
+596,b) False,0,238
+597,a) Client-side renders in browser; server-side renders on server,1,239
+598,b) Both render pages in the browser,0,239
+599,c) Only server-side uses HTML,0,239
+600,a) True,1,240
+601,b) False,0,240
+602,a) Internet Protocol,1,241
+603,b) Internal Path,0,241
+604,c) Integrated Processing,0,241
+605,a) True,1,242
+606,b) False,0,242
+607,a) Encrypt network traffic,0,243
+608,b) Assign MAC addresses,0,243
+609,c) Divide an IP address into network and host portions,1,243
+610,a) True,1,244
+611,b) False,0,244
+612,a) Protect network from viruses,0,245
+613,b) Translate domain names into IP addresses,1,245
+614,c) Allocate bandwidth,0,245
+615,a) True,1,246
+616,b) False,0,246
+617,a) 50 meters,0,247
+618,b) 100 meters,1,247
+619,c) 250 meters,0,247
+620,a) True,1,248
+621,b) False,0,248
+622,a) Data Link Layer,0,249
+623,b) Transport Layer,0,249
+624,c) Network Layer,1,249
+625,a) True,1,250
+626,b) False,0,250
+627,a) Virtual Link Access Network,0,251
+628,b) Virtual Local Area Network,1,251
+629,c) Variable LAN Allocation Node,0,251
+630,a) True,1,252
+631,b) False,0,252
+632,a) IPv6 is slower,0,253
+633,b) IPv6 uses a larger address space than IPv4,1,253
+634,c) IPv4 is only used for wireless,0,253
+635,a) True,1,254
+636,b) False,0,254
+637,a) Identifying a device on a local network,1,255
+638,b) Encrypting files,0,255
+639,c) Managing internet access,0,255
+640,a) True,1,256
+641,b) False,0,256
+642,a) Store encryption keys,0,257
+643,b) Act as an intermediary between client and server,1,257
+644,c) Assign static IPs,0,257
+645,a) True,1,258
+646,b) False,0,258
+647,a) Bandwidth usage,0,259
+648,b) Network connectivity and latency,1,259
+649,c) DNS configuration,0,259
+650,a) True,1,260
+651,b) False,0,260
+652,a) Delivering computing services over the internet,1,261
+653,b) Installing software from CDs,0,261
+654,c) Accessing files from USB drives,0,261
+655,a) True,1,262
+656,b) False,0,262
+657,"a) LAN, WAN, VPN",0,263
+658,"b) IaaS, PaaS, SaaS",1,263
+659,"c) HTTP, FTP, SSH",0,263
+660,a) True,1,264
+661,b) False,0,264
+662,a) Software and Application Access Services,0,265
+663,b) Software as a Service,1,265
+664,c) Secure Application as a Service,0,265
+665,a) True,1,266
+666,b) False,0,266
+667,a) Adjusting resources based on demand,1,267
+668,b) Decreasing internet speed,0,267
+669,c) Increasing software cost,0,267
+670,a) True,1,268
+671,b) False,0,268
+672,a) Email services only,0,269
+673,"b) Virtual machines, storage, and networks",1,269
+674,c) Software development tools only,0,269
+675,a) True,1,270
+676,b) False,0,270
+677,a) Cloud storage provider,0,271
+678,b) Physical hard drive,0,271
+679,c) Software that manages virtual machines,1,271
+680,a) True,1,272
+681,b) False,0,272
+682,a) More advertisements,0,273
+683,b) Public access to data,0,273
+684,c) Enhanced control and security for a single organization,1,273
+685,a) True,1,274
+686,b) False,0,274
+687,a) Platform as a Solution,0,275
+688,b) Platform as a Service,1,275
+689,c) Public Access Application System,0,275
+690,a) True,1,276
+691,b) False,0,276
+692,a) Renting multiple office buildings,0,277
+693,b) Multiple users sharing the same computing resources,1,277
+694,c) Running apps on multiple screens,0,277
+695,a) True,1,278
+696,b) False,0,278
+697,a) Manage cloud services between provider and customer,1,279
+698,b) Backup cloud data,0,279
+699,c) Encrypt cloud servers,0,279
+700,a) True,1,280
+701,b) False,0,280
+702,a) Maintain and manage IT systems and networks,1,281
+703,b) Write mobile applications,0,281
+704,c) Design websites,0,281
+705,a) True,1,282
+706,b) False,0,282
+707,a) Rapid Access Internet Drive,0,283
+708,b) Redundant Array of Independent Disks,1,283
+709,c) Random Allocation of Internal Data,0,283
+710,a) True,0,284
+711,b) False,1,284
+712,a) ping,1,285
+713,b) ipconfig,0,285
+714,c) format,0,285
+715,a) True,1,286
+716,b) False,0,286
+717,a) File compression,0,287
+718,b) Managing users and resources in a Windows domain,1,287
+719,c) Video rendering,0,287
+720,a) True,1,288
+721,b) False,0,288
+722,a) FTP,0,289
+723,b) SSH,1,289
+724,c) SMTP,0,289
+725,a) True,1,290
+726,b) False,0,290
+727,a) Encrypts traffic,0,291
+728,b) Assigns IP addresses dynamically,1,291
+729,c) Monitors internet speed,0,291
+730,a) True,1,292
+731,b) False,0,292
+732,a) Filters spam,0,293
+733,b) Translates domain names to IP addresses,1,293
+734,c) Stores backups,0,293
+735,a) True,0,294
+736,b) False,1,294
+737,a) A public internet server,0,295
+738,b) A secure tunnel for remote access,1,295
+739,c) A backup method,0,295
+740,a) True,1,296
+741,b) False,0,296
+742,a) Capture network traffic,0,297
+743,b) Save system state for recovery,1,297
+744,c) Increase screen resolution,0,297
+745,a) True,1,298
+746,b) False,0,298
+747,a) Makes manual work harder,0,299
+748,b) Deletes old data,0,299
+749,c) Saves time and reduces human error,1,299
+750,a) True,1,300
+751,b) False,0,300
+752,a) Eliminate software testing,0,301
+753,b) Improve collaboration and accelerate software delivery,1,301
+754,c) Focus only on server maintenance,0,301
+755,a) True,1,302
+756,b) False,0,302
+757,a) Docker,0,303
+758,b) Ansible,1,303
+759,c) GitHub,0,303
+760,a) True,1,304
+761,b) False,0,304
+762,a) Network security,0,305
+763,b) Monitoring,0,305
+764,c) Containerization of applications,1,305
+765,a) True,1,306
+766,b) False,0,306
+767,a) Figma,0,307
+768,b) Wireshark,0,307
+769,c) Jenkins,1,307
+770,a) True,0,308
+771,b) False,1,308
+772,a) Code version control,0,309
+773,b) Writing unit tests,0,309
+774,c) Container orchestration,1,309
+775,a) True,0,310
+776,b) False,1,310
+777,a) JSON,0,311
+778,b) YAML,1,311
+779,c) XML,0,311
+780,a) True,1,312
+781,b) False,0,312
+782,a) Selenium,1,313
+783,b) Trello,0,313
+784,c) FileZilla,0,313
+785,a) True,1,314
+786,b) False,0,314
+787,a) Code versioning,0,315
+788,b) Automate builds and deployments,1,315
+789,c) Monitor server logs,0,315
+790,a) True,0,316
+791,b) False,1,316
+792,a) Deployment in two data centers,0,317
+793,b) Switching between two environments to reduce downtime,1,317
+794,c) Color-based code review,0,317
+795,a) True,1,318
+796,b) False,0,318
+797,a) Postman,0,319
+798,"b) ELK Stack (Elasticsearch, Logstash, Kibana)",1,319
+799,c) MySQL,0,319
+800,a) True,1,320
+801,b) False,0,320
+802,a) To compile code,0,321
+803,b) To track and manage code changes,1,321
+804,c) To design databases,0,321
+805,a) True,1,322
+806,b) False,0,322
+807,a) A type of variable,0,323
+808,b) A reusable block of code,1,323
+809,c) A class constructor,0,323
+810,a) True,1,324
+811,b) False,0,324
+812,a) Internal Debugging Engine,0,325
+813,b) Integrated Data Editor,0,325
+814,c) Integrated Development Environment,1,325
+815,a) True,1,326
+816,b) False,0,326
+817,a) Stack,0,327
+818,b) Queue,1,327
+819,c) Array,0,327
+820,a) True,0,328
+821,b) False,1,328
+822,a) Code reusability and easier maintenance,1,329
+823,b) Slower development,0,329
+824,c) Increased code size,0,329
+825,a) True,1,330
+826,b) False,0,330
+827,a) Automated Process Interface,0,331
+828,b) Application Programming Interface,1,331
+829,c) Applied Programming Instruction,0,331
+830,a) True,1,332
+831,b) False,0,332
+832,a) Writing test cases,0,333
+833,b) Compiling code,0,333
+834,c) Finding and fixing code errors,1,333
+835,a) True,1,334
+836,b) False,0,334
+837,a) Running a web server,0,335
+838,b) Translating source code into machine code,1,335
+839,c) Creating UI elements,0,335
+840,a) True,0,336
+841,b) False,1,336
+842,a) Python,0,337
+843,b) JavaScript,1,337
+844,c) Java,0,337
+845,a) A type of programming language,0,338
+846,b) A tool for debugging code,0,338
+847,c) A step-by-step procedure to solve a problem,1,338
+848,a) Increase execution speed,0,339
+849,b) Disable code blocks,0,339
+850,c) Explain and document code logic,1,339
+851,a) True,1,340
+852,b) False,0,340
+853,a) Blender,0,341
+854,b) Premiere Pro,0,341
+855,c) After Effects,1,341
+856,a) True,1,342
+857,b) False,0,342
+858,a) Number of keyframes in a scene,0,343
+859,b) Number of frames displayed per second,1,343
+860,c) Resolution of the animation,0,343
+861,a) True,1,344
+862,b) False,0,344
+863,a) Looping an animation,0,345
+864,b) Applying filters to animations,0,345
+865,c) Adjusting speed changes between keyframes,1,345
+866,a) True,0,346
+867,b) False,1,346
+868,a) PSD,0,347
+869,b) GIF,0,347
+870,c) MP4,1,347
+871,a) True,1,348
+872,b) False,0,348
+873,a) Persistence of vision,1,349
+874,b) Color theory,0,349
+875,c) Parallax effect,0,349
+876,a) True,1,350
+877,b) False,0,350
+878,a) To edit audio,0,351
+879,b) To import images,0,351
+880,c) To organize and control the timing of animations,1,351
+881,a) True,1,352
+882,b) False,0,352
+883,a) Adding color,0,353
+884,b) Hiding or revealing parts of a layer,1,353
+885,c) Adjusting playback speed,0,353
+886,a) True,1,354
+887,b) False,0,354
+888,a) CMYK,0,355
+889,b) HSL,0,355
+890,c) RGB,1,355
+891,a) File duration,0,356
+892,b) Speed of movement between frames,1,356
+893,c) Number of characters,0,356
+894,a) Removing a color background,1,357
+895,b) Animating text,0,357
+896,c) Changing resolution,0,357
+897,a) To edit video effects,0,358
+898,b) To plan the visual sequence of a project,1,358
+899,c) To mix audio,0,358
+900,a) True,1,359
+901,b) False,0,359
+902,a) Removes animation,0,360
+903,b) Adds sound,0,360
+904,c) Generates smooth transitions,1,360
+905,a) Blender,1,361
+906,b) Adobe Illustrator,0,361
+907,c) Audacity,0,361
+908,a) True,1,362
+909,b) False,0,362
+910,a) Applying lighting effects,0,363
+911,b) Mapping textures onto 3D surfaces,1,363
+912,c) Rendering camera views,0,363
+913,a) True,1,364
+914,b) False,0,364
+915,a) Drawing wireframes,0,365
+916,b) Creating a final image from a 3D scene,1,365
+917,c) Modeling characters,0,365
+918,a) True,1,366
+919,b) False,0,366
+920,a) To model objects,0,367
+921,b) To simulate viewing angles,1,367
+922,c) To apply textures,0,367
+923,a) True,1,368
+924,b) False,0,368
+925,a) Ambient lighting,0,369
+926,b) Global illumination,1,369
+927,c) Flat shading,0,369
+928,a) True,1,370
+929,b) False,0,370
+930,a) Local affects the entire scene,0,371
+931,b) Global affects only selected components,0,371
+932,c) Local is relative to the object; global is relative to the world,1,371
+933,a) True,1,372
+934,b) False,0,372
+935,a) .MP4,0,373
+936,b) .FBX,1,373
+937,c) .PSD,0,373
+938,a) Setting render resolution,0,374
+939,b) Creating motion paths,0,374
+940,c) Defining important animation points,1,374
+941,a) True,1,375
+942,b) False,0,375
+943,a) To define UV space,0,376
+944,b) To simulate surface details without adding geometry,1,376
+945,c) To reduce file size,0,376
+946,a) A modeling technique,0,377
+947,b) A lighting filter,0,377
+948,c) A shading method to simulate soft shadows in creases and corners,1,377
+949,a) True,1,378
+950,b) False,0,378
+951,a) Modeling furniture,0,379
+952,"b) Simulating effects like fire, smoke, or rain",1,379
+953,c) Controlling camera angles,0,379
+954,a) Adding more polygons,0,380
+955,b) Baking textures,1,380
+956,c) Increasing resolution,0,380
+957,a) To create texture,0,381
+958,b) To understand color relationships,1,381
+959,c) To adjust brightness,0,381
+960,a) True,0,382
+961,b) False,1,382
+962,a) Image editing,0,383
+963,b) Layout creation,0,383
+964,c) The art of arranging type,1,383
+965,a) True,1,384
+966,b) False,0,384
+967,a) Color matching,0,385
+968,b) Creating balanced layouts,1,385
+969,c) Adjusting font size,0,385
+970,a) True,1,386
+971,b) False,0,386
+972,a) JPEG,0,387
+973,b) PNG,0,387
+974,c) SVG,1,387
+975,a) True,1,388
+976,b) False,0,388
+977,a) Line spacing,0,389
+978,b) Space between letters,1,389
+979,c) Font size,0,389
+980,a) True,1,390
+981,b) False,0,390
+982,a) Font size,0,391
+983,b) Readability and focus,1,391
+984,c) Layer order,0,391
+985,a) True,1,392
+986,b) False,0,392
+987,a) For spacing text,0,393
+988,b) To ensure full edge printing,1,393
+989,c) To add color depth,0,393
+990,a) True,1,394
+991,b) False,0,394
+992,a) For color selection,0,395
+993,b) For text effects,0,395
+994,c) For alignment and consistency,1,395
+995,a) File size,0,396
+996,b) Brightness,0,396
+997,c) Detail and clarity,1,396
+998,"a) RGB is for print, CMYK for screens",0,397
+999,"b) RGB is for screens, CMYK is for print",1,397
+1000,c) They are interchangeable,0,397
+1001,a) True,0,398
+1002,b) False,1,398
+1003,a) To add filters,0,399
+1004,b) To hide or show parts of a design,1,399
+1005,c) To convert text,0,399
+1006,a) More colors,0,400
+1007,b) Smaller file size,0,400
+1008,c) Scalability without losing quality,1,400
+1009,a) To create shadows,0,401
+1010,b) To guide color mixing and combinations,1,401
+1011,c) To adjust brightness,0,401
+1012,a) True,1,402
+1013,b) False,0,402
+1014,a) A two-dimensional outline,0,403
+1015,b) A texture technique,0,403
+1016,c) A three-dimensional object or illusion,1,403
+1017,a) True,1,404
+1018,b) False,0,404
+1019,a) Confusion in layout,0,405
+1020,b) Visual interest and clarity,1,405
+1021,c) Smoother transitions,0,405
+1022,a) True,1,406
+1023,b) False,0,406
+1024,a) The use of textures,0,407
+1025,b) The relation of size between elements,1,407
+1026,c) The type of colors used,0,407
+1027,a) True,1,408
+1028,b) False,0,408
+1029,"a) Symmetrical is chaotic, asymmetrical is ordered",0,409
+1030,"b) Symmetrical has equal weight on both sides, asymmetrical does not",1,409
+1031,c) They are the same,0,409
+1032,a) True,1,410
+1033,b) False,0,410
+1034,a) Conflict among elements,0,411
+1035,b) Random element placement,0,411
+1036,c) Harmony between all parts of a design,1,411
+1037,a) True,1,412
+1038,b) False,0,412
+1039,a) Space with dark colors,0,413
+1040,b) Background sounds,0,413
+1041,c) Empty space around or between elements,1,413
+1042,a) True,1,414
+1043,b) False,0,414
+1044,a) Confuses the layout,0,415
+1045,b) Adds repetition and structure,1,415
+1046,c) Breaks visual flow,0,415
+1047,a) True,1,416
+1048,b) False,0,416
+1049,a) A way to create random patterns,0,417
+1050,b) A mathematical ratio for aesthetically pleasing layouts,1,417
+1051,c) A rule for color blending,0,417
+1052,a) Use of geometric shapes,0,418
+1053,b) Contrast between light and dark,1,418
+1054,c) Monochrome color schemes,0,418
+1055,a) True,1,419
+1056,b) False,0,419
+1057,a) A still object,0,420
+1058,b) The illusion or path of motion within a design,1,420
+1059,c) A style of art history only,0,420
+1060,a) Adobe Illustrator,1,421
+1061,b) Adobe Lightroom,0,421
+1062,c) Adobe Premiere Pro,0,421
+1063,a) True,1,422
+1064,b) False,0,422
+1065,"a) Raster is editable, vector is not",0,423
+1066,"b) Raster uses pixels, vector uses paths",1,423
+1067,c) Vector is only black and white,0,423
+1068,a) True,1,424
+1069,b) False,0,424
+1070,a) Shape Tool,0,425
+1071,b) Pen Tool,1,425
+1072,c) Lasso Tool,0,425
+1073,a) True,1,426
+1074,b) False,0,426
+1075,a) Better file compression,0,427
+1076,b) Smoother gradients,0,427
+1077,c) Variation in line thickness and opacity,1,427
+1078,a) True,1,428
+1079,b) False,0,428
+1080,a) Drawing pixel art,0,429
+1081,b) Creating precise paths and shapes,1,429
+1082,c) Selecting colors,0,429
+1083,a) True,1,430
+1084,b) False,0,430
+1085,a) BMP,0,431
+1086,b) SVG,1,431
+1087,c) GIF,0,431
+1088,a) True,1,432
+1089,b) False,0,432
+1090,a) They are the same,0,433
+1091,b) Opacity controls transparency level,1,433
+1092,c) Transparency only applies to text,0,433
+1093,a) True,1,434
+1094,b) False,0,434
+1095,a) Reduces file size,0,435
+1096,b) Allows multiple canvases in one file,1,435
+1097,c) Removes background automatically,0,435
+1098,a) True,1,436
+1099,b) False,0,436
+1100,a) Creating pixel patterns,0,437
+1101,"b) Drawing smooth, controlled curves",1,437
+1102,c) Filling in color gradients,0,437
+1103,a) True,1,438
+1104,b) False,0,438
+1105,a) CMYK,0,439
+1106,b) Grayscale,0,439
+1107,c) RGB,1,439
+1108,a) True,1,440
+1109,b) False,0,440
+1110,a) Audio mixing,0,441
+1111,b) Rendering,0,441
+1112,c) Concept development,1,441
+1113,a) True,1,442
+1114,b) False,0,442
+1115,a) Adobe Illustrator,0,443
+1116,b) Adobe After Effects,1,443
+1117,c) Adobe InDesign,0,443
+1118,a) True,1,444
+1119,b) False,0,444
+1120,a) 24 fps,1,445
+1121,b) 15 fps,0,445
+1122,c) 60 fps,0,445
+1123,a) True,1,446
+1124,b) False,0,446
+1125,a) Pre-production,0,447
+1126,b) Production,0,447
+1127,c) Post-production,1,447
+1128,a) True,1,448
+1129,b) False,0,448
+1130,a) MP4,0,449
+1131,b) MOV,1,449
+1132,c) JPEG,0,449
+1133,a) True,1,450
+1134,b) False,0,450
+1135,a) Puppet Tool,0,451
+1136,b) Graph Editor,1,451
+1137,c) Clone Stamp Tool,0,451
+1138,a) True,1,452
+1139,b) False,0,452
+1140,a) A type of sound effect,0,453
+1141,b) A frame that marks the start or end of a motion,1,453
+1142,c) A layer mask,0,453
+1143,a) True,1,454
+1144,b) False,0,454
+1145,a) To delete layers,0,455
+1146,b) To isolate or hide specific parts of a layer,1,455
+1147,c) To render faster,0,455
+1148,a) True,1,456
+1149,b) False,0,456
+1150,a) PNG sequence,1,457
+1151,b) PDF,0,457
+1152,c) DOCX,0,457
+1153,a) True,1,458
+1154,b) False,0,458
+1155,a) Static compositing,0,459
+1156,b) Keyframing,0,459
+1157,c) Motion tweening,1,459
+1158,a) True,1,460
+1159,b) False,0,460
+1160,a) <ul>,1,461
+1161,b) <ol>,0,461
+1162,c) <li>,0,461
+1163,a) True,1,462
+1164,b) False,0,462
+1165,a) font-style,0,463
+1166,b) font-size,1,463
+1167,c) text-align,0,463
+1168,a) True,1,464
+1169,b) False,0,464
+1170,a) print(),0,465
+1171,b) alert(),0,465
+1172,c) console.log(),1,465
+1173,a) True,1,466
+1174,b) False,0,466
+1175,a) src,1,467
+1176,b) href,0,467
+1177,c) alt,0,467
+1178,a) True,1,468
+1179,b) False,0,468
+1180,a) Computer Style System,0,469
+1181,b) Cascading Style Sheets,1,469
+1182,c) Creative Styling Syntax,0,469
+1183,a) True,1,470
+1184,b) False,0,470
+1185,a) pop(),0,471
+1186,b) shift(),0,471
+1187,c) push(),1,471
+1188,a) True,0,472
+1189,b) False,1,472
+1190,a) Flask,0,473
+1191,b) Bootstrap,1,473
+1192,c) Django,0,473
+1193,a) True,1,474
+1194,b) False,0,474
+1195,a) color,0,475
+1196,b) background-image,0,475
+1197,c) background-color,1,475
+1198,a) True,1,476
+1199,b) False,0,476
+1200,a) <a>,1,477
+1201,b) <link>,0,477
+1202,c) <href>,0,477
+1203,a) True,1,478
+1204,b) False,0,478
+1205,a) Figma,0,479
+1206,b) GitHub,0,479
+1207,c) Webpack,1,479
+1208,a) True,1,480
+1209,b) False,0,480
+1210,a) dotnet start,0,481
+1211,b) dotnet new,1,481
+1212,c) dotnet init,0,481
+1213,a) True,1,482
+1214,b) False,0,482
+1215,a) Program.cs,0,483
+1216,b) project.json,0,483
+1217,c) .csproj,1,483
+1218,a) True,1,484
+1219,b) False,0,484
+1220,a) dotnet compile,0,485
+1221,b) dotnet build,1,485
+1222,c) dotnet make,0,485
+1223,a) True,1,486
+1224,b) False,0,486
+1225,a) Handling routes,0,487
+1226,b) Storing configuration settings,1,487
+1227,c) Managing controllers,0,487
+1228,a) True,1,488
+1229,b) False,0,488
+1230,a) nuget add,0,489
+1231,b) nuget install,0,489
+1232,c) dotnet add package,1,489
+1233,a) True,1,490
+1234,b) False,0,490
+1235,a) dotnet run,1,491
+1236,b) dotnet go,0,491
+1237,c) dotnet start,0,491
+1238,a) True,1,492
+1239,b) False,0,492
+1240,a) ASP.NET Core,1,493
+1241,b) Xamarin,0,493
+1242,c) WPF,0,493
+1243,a) True,1,494
+1244,b) False,0,494
+1245,a) interface,1,495
+1246,b) class,0,495
+1247,c) define,0,495
+1248,a) True,1,496
+1249,b) False,0,496
+1250,a) GET,0,497
+1251,b) PUT,1,497
+1252,c) DELETE,0,497
+1253,a) True,1,498
+1254,b) False,0,498
+1255,a) [Check],0,499
+1256,b) [Validate],0,499
+1257,c) [Required],1,499
+1258,a) True,1,500
+1259,b) False,0,500
+1260,"a) MongoDB, Express, Angular, Node.js",1,501
+1261,"b) MySQL, Ember, Angular, Node",0,501
+1262,"c) MongoDB, Express, Axios, Nest",0,501
+1263,a) True,1,502
+1264,b) False,0,502
+1265,a) PostgreSQL,0,503
+1266,b) MySQL,0,503
+1267,c) MongoDB,1,503
+1268,a) True,1,504
+1269,b) False,0,504
+1270,a) Backend routing,0,505
+1271,b) Frontend user interface,1,505
+1272,c) Database management,0,505
+1273,a) True,1,506
+1274,b) False,0,506
+1275,a) NestJS,0,507
+1276,b) Express.js,1,507
+1277,c) Koa,0,507
+1278,a) True,1,508
+1279,b) False,0,508
+1280,a) ng generate,0,509
+1281,b) ng new,1,509
+1282,c) ng create,0,509
+1283,a) True,1,510
+1284,b) False,0,510
+1285,a) install node,0,511
+1286,b) npm install,1,511
+1287,c) node get,0,511
+1288,a) True,1,512
+1289,b) False,0,512
+1290,a) get(),0,513
+1291,b) fetch(),0,513
+1292,c) find(),1,513
+1293,a) True,1,514
+1294,b) False,0,514
+1295,a) 8080,0,515
+1296,b) 3000,1,515
+1297,c) 5000,0,515
+1298,a) True,1,516
+1299,b) False,0,516
+1300,a) Direct database access,0,517
+1301,b) Through API calls,1,517
+1302,c) Using middleware,0,517
+1303,a) True,1,518
+1304,b) False,0,518
+1305,a) XML,0,519
+1306,b) JSON,1,519
+1307,c) CSV,0,519
+1308,a) True,1,520
+1309,b) False,0,520
+1310,a) Active Server Pages .NET,1,521
+1311,b) Application Server Platform .NET,0,521
+1312,c) Advanced Script Processing .NET,0,521
+1313,a) True,1,522
+1314,b) False,0,522
+1315,a) Python,0,523
+1316,b) C#,1,523
+1317,c) JavaScript,0,523
+1318,a) True,1,524
+1319,b) False,0,524
+1320,a) Managing CSS,0,525
+1321,b) Application-level event handling,1,525
+1322,c) Styling HTML,0,525
+1323,a) True,1,526
+1324,b) False,0,526
+1325,a) View Engine,0,527
+1326,b) RouteConfig,1,527
+1327,c) AppConfig,0,527
+1328,a) True,1,528
+1329,b) False,0,528
+1330,a) <% %>,1,529
+1331,b) {{ }},0,529
+1332,c) @{},0,529
+1333,a) True,1,530
+1334,b) False,0,530
+1335,a) .raz,0,531
+1336,b) .aspx,0,531
+1337,c) .cshtml,1,531
+1338,a) True,1,532
+1339,b) False,0,532
+1340,a) SessionData,0,533
+1341,b) HttpContext.Session,1,533
+1342,c) AppSession,0,533
+1343,a) True,1,534
+1344,b) False,0,534
+1345,a) Composer,0,535
+1346,b) NuGet,1,535
+1347,c) Maven,0,535
+1348,a) True,1,536
+1349,b) False,0,536
+1350,a) GET,0,537
+1351,b) PUT,0,537
+1352,c) POST,1,537
+1353,a) True,1,538
+1354,b) False,0,538
+1355,a) WebSecurity,0,539
+1356,b) ASP.NET Identity,1,539
+1357,c) AuthEngine,0,539
+1358,a) True,1,540
+1359,b) False,0,540

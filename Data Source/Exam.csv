@@ -1,0 +1,28 @@
+Exam_ID,Exam_Name,Duration,Exam_Marks,Course_ID
+1,Microsoft Database Fundamentals Exam,120,70,1
+2,Data Analytics Proficiency Exam,60,100,2
+3,Data Visualization Techniques Assessment,120,75,3
+4,Core Software Development Exam,60,100,4
+5,Practical Workshop Skills Evaluation,90,100,5
+6,Soft Skills & Freelancing Readiness Exam,60,75,6
+7,Fullstack Application Development & Testing Exam,120,50,7
+8,Software Testing Fundamentals Assessment,120,50,8
+9,User Experience Design Competency Exam,60,100,9
+10,User Interface Design Skills Test,60,50,10
+11,Supporting IT Concepts Evaluation,60,100,11
+12,Modern Web Development Techniques Exam,120,75,12
+13,IT Infrastructure & Networking Basics Exam,60,100,13
+14,Cloud Computing & Virtualization Assessment,120,50,14
+15,Systems Administration Certification Test,90,50,15
+16,DevOps & Automation Tools Mastery Exam,90,100,16
+17,Software Development Skills Evaluation,120,75,17
+18,2D Motion Graphics Creative Exam,120,50,18
+19,3D Motion Graphics Production Assessment,60,100,19
+20,2D Graphic Design Fundamentals Exam,120,100,20
+21,Visual Arts & Design Theory Test,60,50,21
+22,Digital Illustration Techniques Evaluation,60,100,22
+23,Motion Graphics Filmmaking Exam,120,75,23
+24,Frontend Development Proficiency Test,60,75,24
+25,.NET Core Programming Certification Exam,90,100,25
+26,MEAN Stack Web Development Skills Test,60,75,26
+27,ASP.NET Web Application Development Exam,60,100,27

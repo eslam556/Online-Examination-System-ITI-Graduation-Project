@@ -1,0 +1,541 @@
+Question_ID,Question_Text,Question_Type,Question_Mark,Exam_ID
+1,What is the purpose of a primary key in a database table?,MCQ,4,1
+2,A foreign key is used to link two tables together.,TF,3,1
+3,Which SQL command is used to retrieve data from a database?,MCQ,4,1
+4,A table can have more than one primary key.,TF,3,1
+5,What does SQL stand for?,MCQ,4,1
+6,The SELECT statement is used to delete records.,TF,3,1
+7,Which SQL clause is used to sort query results?,MCQ,4,1
+8,NULL values represent missing or unknown data.,TF,3,1
+9,Which command is used to create a new table in SQL?,MCQ,4,1
+10,Every column in a table must have a unique name.,TF,3,1
+11,What type of SQL join returns all records when there is a match in either table?,MCQ,4,1
+12,A view is a virtual table based on the result-set of an SQL statement.,TF,3,1
+13,Which command is used to remove a table from a database?,MCQ,4,1
+14,A WHERE clause is used to filter records.,TF,3,1
+15,What is the default sort order of the ORDER BY clause?,MCQ,4,1
+16,You can insert multiple rows in a table using a single INSERT command.,TF,3,1
+17,Which SQL statement is used to modify existing data in a table?,MCQ,4,1
+18,The GROUP BY clause is used with aggregate functions like COUNT and AVG.,TF,3,1
+19,What keyword is used to remove duplicate rows from a query result?,MCQ,4,1
+20,A stored procedure is a compiled set of SQL statements that can be executed repeatedly.,TF,3,1
+21,What is the first step in any data analysis process?,MCQ,5,2
+22,Data cleaning is a part of the data preparation phase.,TF,5,2
+23,Which programming language is commonly used for data analytics?,MCQ,5,2
+24,Correlation implies causation.,TF,5,2
+25,What is the purpose of exploratory data analysis (EDA)?,MCQ,5,2
+26,Descriptive statistics summarize the main features of a dataset.,TF,5,2
+27,Which chart is best for showing the distribution of a numerical variable?,MCQ,5,2
+28,"Mean, median, and mode are all measures of central tendency.",TF,5,2
+29,What does the term “outlier” refer to in data analysis?,MCQ,5,2
+30,Standard deviation measures data spread from the mean.,TF,5,2
+31,Which tool is widely used for data visualization?,MCQ,5,2
+32,"Data analytics can be classified into descriptive, diagnostic, predictive, and prescriptive types.",TF,5,2
+33,What is the purpose of a pivot table?,MCQ,5,2
+34,"In data analytics, dashboards are used for interactive data display.",TF,5,2
+35,What does KPI stand for in analytics?,MCQ,5,2
+36,Data normalization adjusts values measured on different scales to a common scale.,TF,5,2
+37,Which technique is used to predict future outcomes based on historical data?,MCQ,5,2
+38,"Data can be structured, semi-structured, or unstructured.",TF,5,2
+39,What is the process of converting raw data into meaningful insights called?,MCQ,5,2
+40,A histogram is useful for visualizing frequency distribution.,TF,5,2
+41,What is the primary goal of data visualization?,MCQ,3,3
+42,Bar charts are ideal for comparing categorical data.,TF,4,3
+43,Which chart is best suited for displaying trends over time?,MCQ,4,3
+44,A heatmap is used to show data density.,TF,4,3
+45,Which color scheme is best for representing sequential data?,MCQ,4,3
+46,Pie charts are the most accurate way to compare data portions.,TF,3,3
+47,What is a key advantage of using interactive dashboards?,MCQ,4,3
+48,Line charts can be used to visualize continuous data.,TF,4,3
+49,Which visualization technique helps identify outliers quickly?,MCQ,4,3
+50,Good visualizations reduce cognitive load on the audience.,TF,4,3
+51,What is the difference between a histogram and a bar chart?,MCQ,4,3
+52,Scatter plots are useful for showing relationships between two variables.,TF,4,3
+53,What is a treemap used for in data visualization?,MCQ,4,3
+54,"A data dashboard should always use bright, vibrant colors.",TF,3,3
+55,Which tool is commonly used for business intelligence dashboards?,MCQ,4,3
+56,Consistency in design enhances readability of visualizations.,TF,4,3
+57,What is the key purpose of data storytelling in visualization?,MCQ,4,3
+58,Overplotting can obscure patterns in data.,TF,3,3
+59,Which plot type shows data distribution using quartiles and medians?,MCQ,4,3
+60,A cluttered dashboard increases insight clarity.,TF,3,3
+61,What is the main purpose of version control in software development?,MCQ,5,4
+62,A compiler translates source code into machine code.,TF,5,4
+63,What is the difference between a class and an object in OOP?,MCQ,5,4
+64,Encapsulation is a core principle of object-oriented programming.,TF,5,4
+65,Which language is primarily used for developing Android apps?,MCQ,5,4
+66,An algorithm is a step-by-step solution to a problem.,TF,5,4
+67,What does the term “agile” refer to in software development?,MCQ,5,4
+68,Unit testing helps ensure individual parts of software work as expected.,TF,5,4
+69,Which software development model is known for its sequential phases?,MCQ,5,4
+70,Debugging is the process of finding and fixing errors in code.,TF,5,4
+71,What is the main purpose of an IDE in programming?,MCQ,5,4
+72,Source code is the final executable version of a program.,TF,5,4
+73,Which data structure uses FIFO (First In First Out)?,MCQ,5,4
+74,A stack follows the LIFO principle.,TF,5,4
+75,What is recursion in programming?,MCQ,5,4
+76,Infinite loops can crash a program.,TF,5,4
+77,What is a primary benefit of code refactoring?,MCQ,5,4
+78,Code comments help in understanding the logic.,TF,5,4
+79,What’s the difference between a compiled and interpreted language?,MCQ,5,4
+80,A syntax error occurs when the code violates language grammar rules.,TF,5,4
+81,What is the purpose of a project retrospective in a workshop setting?,MCQ,5,5
+82,Hands-on practice enhances skill retention more than theoretical learning.,TF,5,5
+83,Which tool is commonly used for collaborative team workshops?,MCQ,5,5
+84,Feedback is essential for improving practical skills.,TF,5,5
+85,What is the first step when starting a practical workshop project?,MCQ,5,5
+86,Safety protocols should always be followed in a practical environment.,TF,5,5
+87,Which approach is best for managing a workshop team task?,MCQ,5,5
+88,Practical workshops often simulate real-world scenarios.,TF,5,5
+89,What does a Gantt chart represent in project planning?,MCQ,5,5
+90,Time management is crucial for successful workshop completion.,TF,5,5
+91,Which method is effective for breaking down a complex task in a workshop?,MCQ,5,5
+92,Peer reviews help improve the quality of workshop outcomes.,TF,5,5
+93,What is the key benefit of working in pairs during a workshop?,MCQ,5,5
+94,Documenting the process helps in future project replication.,TF,5,5
+95,Which metric is used to evaluate productivity in workshops?,MCQ,5,5
+96,Workshops can be evaluated using rubrics.,TF,5,5
+97,What does SMART stand for in workshop goal setting?,MCQ,5,5
+98,Communication plays a vital role in team-based practical tasks.,TF,5,5
+99,Which strategy helps track workshop progress effectively?,MCQ,5,5
+100,Recording lessons learned is part of workshop best practices.,TF,5,5
+101,What is the importance of active listening in communication?,MCQ,3,6
+102,Freelancers should always have a clear contract before starting work.,TF,4,6
+103,Which platform is commonly used for finding freelancing gigs?,MCQ,4,6
+104,Time management is a crucial skill for freelancers.,TF,4,6
+105,What does SMART stand for in goal setting?,MCQ,4,6
+106,Soft skills are not as important as technical skills.,TF,4,6
+107,Which tool is effective for managing freelance project tasks?,MCQ,4,6
+108,Networking helps freelancers find more opportunities.,TF,4,6
+109,What is a common challenge freelancers face?,MCQ,4,6
+110,Feedback helps improve freelance service quality.,TF,4,6
+111,Which skill is essential for conflict resolution in teams?,MCQ,4,6
+112,Self-motivation is key to freelancing success.,TF,4,6
+113,What is the best way to handle an unhappy client?,MCQ,4,6
+114,Maintaining a portfolio is useful for freelancers.,TF,4,6
+115,Which communication style is best for professional emails?,MCQ,4,6
+116,Freelancers must track their income and expenses.,TF,4,6
+117,What is a good way to build trust with clients?,MCQ,3,6
+118,Honesty and transparency are key traits for freelancers.,TF,3,6
+119,What tool can help with scheduling meetings?,MCQ,3,6
+120,Punctuality reflects professionalism.,TF,3,6
+121,"What does ""fullstack development"" mean?",MCQ,3,7
+122,Unit testing involves testing individual components of an application.,TF,3,7
+123,Which language is commonly used for backend development?,MCQ,3,7
+124,Frontend frameworks like React help build user interfaces.,TF,3,7
+125,What is the purpose of an API in fullstack development?,MCQ,3,7
+126,Integration testing checks the interaction between different parts of the application.,TF,3,7
+127,Which database type is commonly used in fullstack apps?,MCQ,3,7
+128,Continuous Integration helps automate testing and deployment.,TF,3,7
+129,What does CRUD stand for in application development?,MCQ,3,7
+130,Functional testing verifies the application meets specified requirements.,TF,3,7
+131,Which tool is used for version control in software projects?,MCQ,2,7
+132,Manual testing is less effective than automated testing.,TF,2,7
+133,What is the role of middleware in fullstack applications?,MCQ,2,7
+134,Debugging is the process of finding and fixing bugs in code.,TF,2,7
+135,Responsive design ensures applications work well on different device sizes.,MCQ,2,7
+136,Load testing evaluates application performance under heavy user traffic.,TF,2,7
+137,Which protocol is commonly used to transfer data between client and server?,MCQ,2,7
+138,Agile methodology encourages iterative development and collaboration.,TF,2,7
+139,"What does ""deployment"" mean in software development?",MCQ,2,7
+140,Regression testing ensures new code changes do not break existing functionality.,TF,2,7
+141,What is the primary goal of software testing?,MCQ,4,8
+142,Black box testing focuses on the internal structure of the software.,TF,4,8
+143,Unit testing is performed by developers to test individual functions or modules.,TF,3,8
+144,What does regression testing verify?,MCQ,3,8
+145,Smoke testing is a quick test to check basic functionality.,TF,3,8
+146,Which testing type checks software performance under load?,MCQ,3,8
+147,What is the difference between verification and validation?,MCQ,3,8
+148,Functional testing ensures the software performs according to requirements.,TF,3,8
+149,What tool is commonly used for bug tracking?,MCQ,2,8
+150,Exploratory testing is unstructured and relies on tester creativity.,TF,2,8
+151,White box testing requires knowledge of the code.,TF,2,8
+152,What is boundary value analysis used for?,MCQ,2,8
+153,Which testing level focuses on entire system functionality?,MCQ,2,8
+154,Load testing simulates multiple users accessing the software simultaneously.,TF,2,8
+155,Test automation reduces manual testing effort and improves accuracy.,TF,2,8
+156,What does defect density measure?,MCQ,2,8
+157,What is the role of a test case in software testing?,MCQ,2,8
+158,Which phase follows test planning in the software testing life cycle?,MCQ,2,8
+159,User acceptance testing is performed by the end users to verify software usability.,TF,2,8
+160,What is the main benefit of continuous testing in DevOps?,MCQ,2,8
+161,What is the primary goal of user experience (UX) design?,MCQ,5,9
+162,UX design focuses only on the visual appearance of a product.,TF,4,9
+163,What does usability testing assess?,MCQ,5,9
+164,Wireframes are low-fidelity visual representations of a user interface.,TF,4,9
+165,What is an example of a heuristic evaluation principle?,MCQ,5,9
+166,Personas help designers understand user needs and goals.,TF,4,9
+167,"What does the term ""affordance"" mean in UX design?",MCQ,5,9
+168,Accessibility in UX design ensures products are usable by people with disabilities.,TF,4,9
+169,What is the difference between UX and UI design?,MCQ,5,9
+170,A/B testing compares two versions of a design to determine which performs better.,TF,4,9
+171,What role does user research play in UX design?,MCQ,6,9
+172,Card sorting is a technique used to design or evaluate the information architecture of a site.,TF,5,9
+173,What is the main purpose of a user journey map?,MCQ,6,9
+174,Prototyping helps test and validate design ideas early in the process.,TF,5,9
+175,"What does the term ""cognitive load"" refer to in UX?",MCQ,6,9
+176,Mobile-first design prioritizes designing for desktop before mobile devices.,TF,5,9
+177,What is usability heuristics?,MCQ,6,9
+178,Emotional design aims to create positive feelings in users when interacting with a product.,TF,5,9
+179,What is a common method to collect user feedback during the design process?,MCQ,6,9
+180,Consistency in UX design improves learnability and user satisfaction.,TF,5,9
+181,What is the primary focus of user interface (UI) design?,MCQ,3,10
+182,UI design only involves the graphic elements of an application.,TF,2,10
+183,"What does ""responsive design"" mean?",MCQ,3,10
+184,Consistency in UI helps users learn and navigate applications more easily.,TF,2,10
+185,What is a wireframe used for in UI design?,MCQ,3,10
+186,UI designers should always prioritize aesthetics over usability.,TF,2,10
+187,What role do colors play in UI design?,MCQ,3,10
+188,Typography affects readability and user experience.,TF,2,10
+189,What is a common UI pattern used for navigation?,MCQ,3,10
+190,UI design and UX design are the same thing.,TF,2,10
+191,"What is ""affordance"" in UI design?",MCQ,3,10
+192,Icons should always be accompanied by text labels.,TF,2,10
+193,What is the benefit of using grids in UI layouts?,MCQ,3,10
+194,Minimalism in UI design refers to using as many elements as possible.,TF,2,10
+195,"What does ""feedback"" mean in the context of UI design?",MCQ,3,10
+196,UI responsiveness means the interface adapts quickly to user inputs.,TF,2,10
+197,What is a prototype in UI design?,MCQ,3,10
+198,UI designers don’t need to consider accessibility guidelines.,TF,2,10
+199,What is the purpose of a style guide in UI design?,MCQ,3,10
+200,Buttons should always clearly indicate they are clickable.,TF,2,10
+201,What is the primary function of an operating system?,MCQ,5,11
+202,Hardware and software are the two main components of a computer system.,TF,5,11
+203,What does BIOS stand for and what is its function?,MCQ,5,11
+204,A firewall protects a computer network from unauthorized access.,TF,5,11
+205,What is the difference between RAM and ROM?,MCQ,5,11
+206,Cloud computing means storing data only on your local device.,TF,5,11
+207,What is a VPN and why is it used?,MCQ,5,11
+208,Software updates can improve security and functionality.,TF,5,11
+209,What is the purpose of a database management system (DBMS)?,MCQ,5,11
+210,The Internet and the World Wide Web (WWW) are the same thing.,TF,5,11
+211,What is malware and how can it affect a computer system?,MCQ,5,11
+212,Data encryption helps protect information during transmission.,TF,5,11
+213,What is the role of DNS in networking?,MCQ,5,11
+214,An IP address uniquely identifies a device on a network.,TF,5,11
+215,What is the function of a router in a network?,MCQ,5,11
+216,Backup and recovery are essential parts of data management.,TF,5,11
+217,What is virtualization in IT?,MCQ,5,11
+218,Antivirus software can detect and remove viruses from a computer.,TF,5,11
+219,What is the difference between a client and a server in computing?,MCQ,5,11
+220,The term “bandwidth” refers to the speed of an internet connection.,TF,5,11
+221,What is the main purpose of HTML in web development?,MCQ,2,12
+222,CSS is used to style the visual layout of web pages.,TF,3,12
+223,JavaScript is a server-side programming language.,TF,2,12
+224,What does DOM stand for in web development?,MCQ,3,12
+225,Responsive design allows web pages to adapt to different screen sizes.,TF,2,12
+226,What is the function of a web framework like React or Angular?,MCQ,3,12
+227,AJAX is used for asynchronous web requests to update parts of a web page without reloading.,TF,2,12
+228,What is the difference between GET and POST HTTP methods?,MCQ,3,12
+229,Semantic HTML elements improve accessibility and SEO.,TF,2,12
+230,What is a Single Page Application (SPA)?,MCQ,3,12
+231,JavaScript frameworks are unnecessary for modern web development.,TF,2,12
+232,What is the role of APIs in web development?,MCQ,3,12
+233,Cross-Origin Resource Sharing (CORS) controls access between different domains.,TF,2,12
+234,What is the purpose of Webpack or similar build tools?,MCQ,3,12
+235,HTTPS provides a secure communication protocol for websites.,TF,2,12
+236,What is progressive web app (PWA) technology?,MCQ,3,12
+237,What does “mobile-first” design mean?,MCQ,2,12
+238,CSS Flexbox is a layout model that helps in creating responsive web designs.,TF,3,12
+239,What is the difference between client-side and server-side rendering?,MCQ,2,12
+240,Browsers interpret JavaScript code to make web pages interactive.,TF,3,12
+241,What does IP stand for in networking?,MCQ,5,13
+242,A router connects different networks together.,TF,5,13
+243,What is the purpose of a subnet mask?,MCQ,5,13
+244,DHCP dynamically assigns IP addresses to devices on a network.,TF,5,13
+245,What is the main function of DNS?,MCQ,5,13
+246,TCP/IP is a protocol suite used for internet communication.,TF,5,13
+247,What is the maximum length of a CAT5 Ethernet cable segment?,MCQ,5,13
+248,A firewall protects a network by controlling incoming and outgoing traffic.,TF,5,13
+249,What layer of the OSI model handles routing?,MCQ,5,13
+250,Switches operate at the data link layer of the OSI model.,TF,5,13
+251,What does VLAN stand for?,MCQ,5,13
+252,Static IP addresses are assigned manually and do not change automatically.,TF,5,13
+253,What is the difference between IPv4 and IPv6?,MCQ,5,13
+254,NAT (Network Address Translation) allows multiple devices to share one IP.,TF,5,13
+255,What is a MAC address used for?,MCQ,5,13
+256,Wi-Fi networks use radio waves to communicate between devices.,TF,5,13
+257,What is the role of a proxy server in a network?,MCQ,5,13
+258,SSL/TLS protocols are used to secure data transmitted over the internet.,TF,5,13
+259,What does Ping command test in networking?,MCQ,5,13
+260,Ethernet cables can be either shielded or unshielded.,TF,5,13
+261,What is cloud computing?,MCQ,2,14
+262,Virtual machines run on physical hardware through a hypervisor.,TF,3,14
+263,What are the three main types of cloud service models?,MCQ,2,14
+264,Public clouds are accessible to multiple organizations.,TF,3,14
+265,What does SaaS stand for?,MCQ,2,14
+266,Virtualization allows multiple OS instances to run on one server.,TF,3,14
+267,What is the benefit of scalability in cloud computing?,MCQ,2,14
+268,Cloud providers are responsible for hardware maintenance.,TF,3,14
+269,What does IaaS provide to users?,MCQ,2,14
+270,Virtual machines can be easily cloned and migrated between hosts.,TF,3,14
+271,What is a hypervisor?,MCQ,2,14
+272,Cloud computing reduces the need for local data storage.,TF,3,14
+273,What is the main advantage of private clouds?,MCQ,2,14
+274,Containers are a form of virtualization that is lighter than VMs.,TF,3,14
+275,What does PaaS stand for?,MCQ,2,14
+276,Cloud computing can help in disaster recovery.,TF,3,14
+277,What is multi-tenancy in cloud computing?,MCQ,2,14
+278,Virtual machines have their own OS and resources.,TF,3,14
+279,What is the role of a cloud service broker?,MCQ,2,14
+280,"Cloud computing environments can be hybrid, combining public and private clouds.",TF,3,14
+281,What is the primary role of a system administrator?,MCQ,3,15
+282,Backing up data regularly is a critical task for sysadmins.,TF,2,15
+283,What does RAID stand for in storage systems?,MCQ,3,15
+284,System updates should always be applied immediately without testing.,TF,2,15
+285,What command is used to check network connectivity in Windows?,MCQ,3,15
+286,Firewalls help protect systems from unauthorized access.,TF,2,15
+287,What is Active Directory used for?,MCQ,3,15
+288,Linux system logs are stored in /var/log directory.,TF,2,15
+289,What protocol is commonly used to remotely manage servers?,MCQ,3,15
+290,SSH stands for Secure Shell.,TF,2,15
+291,What does DHCP do in a network?,MCQ,3,15
+292,User permissions control access to files and directories.,TF,2,15
+293,What is the function of a DNS server?,MCQ,3,15
+294,A reboot is required after every software installation.,TF,2,15
+295,What is a virtual private network (VPN)?,MCQ,3,15
+296,System administrators monitor system performance and logs.,TF,2,15
+297,What is the purpose of system snapshots?,MCQ,3,15
+298,Root is the administrative user in Linux systems.,TF,2,15
+299,What is the main advantage of automated scripts for sysadmins?,MCQ,3,15
+300,Antivirus software must be updated regularly.,TF,2,15
+301,What is the primary goal of DevOps in software development?,MCQ,5,16
+302,Continuous Integration (CI) is the practice of merging code changes frequently.,TF,5,16
+303,Which tool is commonly used for configuration management?,MCQ,5,16
+304,Automation reduces human errors and speeds up software delivery.,TF,5,16
+305,What does Docker primarily provide in a DevOps environment?,MCQ,5,16
+306,Infrastructure as Code (IaC) allows managing infrastructure through code.,TF,5,16
+307,Which of the following is a popular CI/CD tool?,MCQ,5,16
+308,DevOps and Agile methodologies are completely unrelated.,TF,5,16
+309,Kubernetes is used for container orchestration.,MCQ,5,16
+310,Monitoring tools are unnecessary in a fully automated DevOps pipeline.,TF,5,16
+311,What language is commonly used for writing Ansible playbooks?,MCQ,5,16
+312,DevOps culture emphasizes collaboration between development and operations teams.,TF,5,16
+313,Which tool helps automate testing in a DevOps pipeline?,MCQ,5,16
+314,Containers package applications with their dependencies.,TF,5,16
+315,What is the main function of Jenkins?,MCQ,5,16
+316,Version control systems are optional in DevOps workflows.,TF,5,16
+317,What does the term ‘blue-green deployment’ refer to?,MCQ,5,16
+318,Automation scripts can help with infrastructure provisioning.,TF,5,16
+319,Which tool is used for log aggregation in DevOps?,MCQ,5,16
+320,DevOps aims to shorten the software development lifecycle.,TF,5,16
+321,What is the purpose of version control systems like Git?,MCQ,4,17
+322,Object-oriented programming focuses on using classes and objects.,TF,4,17
+323,What is a function in programming?,MCQ,4,17
+324,Recursion is a technique where a function calls itself.,TF,4,17
+325,What does IDE stand for in software development?,MCQ,4,17
+326,Agile methodology promotes iterative and incremental development.,TF,4,17
+327,Which data structure uses FIFO (First In First Out) principle?,MCQ,4,17
+328,A syntax error occurs when code logic is incorrect.,TF,4,17
+329,What is the main advantage of modular programming?,MCQ,4,17
+330,Variables store data values in programming.,TF,4,17
+331,What does API stand for?,MCQ,4,17
+332,Encapsulation hides the internal state of an object.,TF,4,17
+333,What is debugging in software development?,MCQ,4,17
+334,Inheritance allows a class to derive properties from another class.,TF,4,17
+335,What does ‘compile’ mean in programming?,MCQ,4,17
+336,Software testing is only done at the end of development.,TF,3,17
+337,Which language is commonly used for web development?,MCQ,3,17
+338,What is an algorithm?,MCQ,3,17
+339,What is the role of comments in code?,MCQ,3,17
+340,Software documentation is important for maintenance.,TF,3,17
+341,What is the primary software used for 2D motion graphics?,MCQ,3,18
+342,Keyframes define the start and end points of an animation.,TF,2,18
+343,"What does the term ""frame rate"" refer to in animation?",MCQ,3,18
+344,Vector graphics are resolution-independent.,TF,2,18
+345,What is easing in animation?,MCQ,3,18
+346,Raster images scale without loss of quality.,TF,2,18
+347,What file format is commonly used for exporting 2D animations?,MCQ,3,18
+348,Alpha channel controls transparency in images.,TF,2,18
+349,Which principle explains the illusion of motion in animation?,MCQ,3,18
+350,Motion blur can enhance the realism of animations.,TF,2,18
+351,What is the role of the timeline in animation software?,MCQ,3,18
+352,Onion skinning helps animators see multiple frames at once.,TF,2,18
+353,What is a mask used for in motion graphics?,MCQ,3,18
+354,Layers in animation software can be reordered and hidden.,TF,2,18
+355,Which color model is primarily used in digital screens?,MCQ,3,18
+356,Timing in animation refers to the speed of motion between frames.,MCQ,2,18
+357,What does “keying” mean in motion graphics?,MCQ,2,18
+358,What is the function of a storyboard?,MCQ,3,18
+359,2D motion graphics can be combined with audio tracks.,TF,3,18
+360,What does interpolation do between keyframes?,MCQ,2,18
+361,Which software is most commonly used for 3D motion graphics?,MCQ,5,19
+362,Polygon count affects the complexity of a 3D model.,TF,5,19
+363,What is UV mapping in 3D modeling?,MCQ,5,19
+364,Rigging is the process of creating a skeleton for animation.,TF,5,19
+365,What does the term “rendering” mean in 3D graphics?,MCQ,5,19
+366,NURBS stands for Non-Uniform Rational B-Splines.,TF,5,19
+367,What is the purpose of a camera in a 3D scene?,MCQ,5,19
+368,Textures add surface detail and realism to 3D models.,TF,5,19
+369,Which lighting technique simulates realistic light behavior?,MCQ,5,19
+370,Motion capture is used to animate 3D characters.,TF,5,19
+371,What is the difference between local and global transformations?,MCQ,5,19
+372,Skeletal animation uses bones to control model movement.,TF,5,19
+373,Which format is widely used for exporting 3D animations?,MCQ,5,19
+374,What does “keyframing” refer to in 3D animation?,MCQ,5,19
+375,Shaders determine how surfaces interact with light.,TF,5,19
+376,What is the function of a normal map in texturing?,MCQ,5,19
+377,What is ambient occlusion in 3D rendering?,MCQ,5,19
+378,3D motion graphics can be combined with audio tracks.,TF,5,19
+379,What is particle systems used for in 3D graphics?,MCQ,5,19
+380,Which process helps optimize 3D models for real-time rendering?,MCQ,5,19
+381,What is the primary purpose of the color wheel in design?,MCQ,5,20
+382,CMYK color mode is used mainly for digital screens.,TF,5,20
+383,What does “typography” refer to in graphic design?,MCQ,5,20
+384,Vector graphics are resolution independent.,TF,5,20
+385,What is the rule of thirds used for in design composition?,MCQ,5,20
+386,Layers help organize elements in graphic design software.,TF,5,20
+387,What file format is best for logos requiring scalability?,MCQ,5,20
+388,Raster images are made up of pixels.,TF,5,20
+389,What is “kerning” in typography?,MCQ,5,20
+390,The Pantone Matching System is used for color consistency.,TF,5,20
+391,What does “contrast” improve in a design?,MCQ,5,20
+392,Opacity controls the transparency of design elements.,TF,5,20
+393,What is the use of “bleed” in print design?,MCQ,5,20
+394,The golden ratio is a guideline for balanced design layouts.,TF,5,20
+395,What is the purpose of grids in graphic design?,MCQ,5,20
+396,What does “resolution” measure in digital images?,MCQ,5,20
+397,What is the difference between RGB and CMYK color modes?,MCQ,5,20
+398,“Sans-serif” fonts have small lines at the ends of characters.,TF,5,20
+399,What is the use of “masking” in graphic design?,MCQ,5,20
+400,What is the main advantage of using vector graphics?,MCQ,5,20
+401,What is the primary purpose of the color theory in visual arts?,MCQ,3,21
+402,Balance in design refers to the distribution of visual weight.,TF,2,21
+403,What is “form” in art and design?,MCQ,3,21
+404,Texture can be both visual and tactile.,TF,2,21
+405,What does “contrast” help achieve in composition?,MCQ,3,21
+406,Rhythm in art refers to repetition and movement.,TF,2,21
+407,What is “proportion” in visual arts?,MCQ,3,21
+408,Line is a fundamental element of design.,TF,2,21
+409,What is the difference between symmetrical and asymmetrical balance?,MCQ,3,21
+410,Shape refers to a two-dimensional area defined by lines or edges.,TF,2,21
+411,What does “unity” mean in design theory?,MCQ,3,21
+412,Emphasis directs the viewer’s attention to a focal point.,TF,2,21
+413,What is “negative space” in visual composition?,MCQ,3,21
+414,Warm colors tend to advance visually while cool colors recede.,TF,2,21
+415,What role does “pattern” play in design?,MCQ,3,21
+416,Visual hierarchy organizes elements to show importance.,TF,2,21
+417,What is the Golden Ratio in design?,MCQ,2,21
+418,What is chiaroscuro in art?,MCQ,3,21
+419,Color saturation refers to the intensity of a color.,TF,3,21
+420,What is “movement” in visual arts?,MCQ,2,21
+421,What is the primary software used for digital illustration?,MCQ,5,22
+422,Vector illustrations are resolution independent.,TF,5,22
+423,What is the main difference between raster and vector graphics?,MCQ,5,22
+424,Layers help manage complex illustrations.,TF,5,22
+425,Which tool is commonly used to draw smooth curves in Adobe Illustrator?,MCQ,5,22
+426,Masking allows you to hide parts of a layer.,TF,5,22
+427,What is the benefit of using pressure sensitivity in digital illustration?,MCQ,5,22
+428,Blending modes affect how layers interact with each other.,TF,5,22
+429,What is the Pen Tool primarily used for in digital illustration?,MCQ,5,22
+430,Clipping masks confine artwork to a specific shape or boundary.,TF,5,22
+431,What file format is best for preserving vector artwork?,MCQ,5,22
+432,DPI stands for Dots Per Inch.,TF,5,22
+433,What is the difference between opacity and transparency in illustrations?,MCQ,5,22
+434,Brushes in digital illustration can be customized for different effects.,TF,5,22
+435,What is the benefit of using artboards in digital illustration software?,MCQ,5,22
+436,Exporting artwork in SVG format maintains vector quality.,TF,5,22
+437,What is a Bézier curve used for?,MCQ,5,22
+438,Anti-aliasing smooths the edges of raster graphics.,TF,5,22
+439,Which color mode is best for digital screens?,MCQ,5,22
+440,Guides and grids assist in layout alignment and precision.,TF,5,22
+441,What is the first step in planning a motion graphics project?,MCQ,4,23
+442,Storyboarding is an essential part of the pre-production phase.,TF,4,23
+443,What is the primary software used for compositing in motion graphics?,MCQ,4,23
+444,"Motion graphics filmmaking includes animation, audio, and video editing.",TF,4,23
+445,What is the frame rate for most cinematic motion graphics projects?,MCQ,4,23
+446,Audio synchronization is crucial in motion graphics storytelling.,TF,4,23
+447,"Which phase involves adding effects, transitions, and titles?",MCQ,4,23
+448,The post-production phase includes rendering and exporting.,TF,4,23
+449,What file format is commonly used for high-quality motion graphic videos?,MCQ,4,23
+450,Motion paths help control the movement of elements on screen.,TF,4,23
+451,What tool is used in After Effects to create smooth keyframe animations?,MCQ,4,23
+452,Typography plays a significant role in motion graphics storytelling.,TF,4,23
+453,What is a keyframe in motion graphics animation?,MCQ,4,23
+454,Transitions help maintain visual flow in motion graphics.,TF,4,23
+455,What is the purpose of using masks in motion graphics compositing?,MCQ,4,23
+456,Green screen footage requires chroma keying during post-production.,TF,3,23
+457,What is a commonly used file container for rendered animation sequences?,MCQ,3,23
+458,Motion blur can be added to enhance realism in animations.,TF,3,23
+459,What technique is used to animate still images over time?,MCQ,3,23
+460,Exporting in H.264 format provides a good balance of quality and size.,TF,3,23
+461,What HTML tag is used to define an unordered list?,MCQ,4,24
+462,HTML stands for Hyper Text Markup Language.,TF,4,24
+463,Which CSS property controls the text size?,MCQ,4,24
+464,"CSS can be applied inline, internally, or externally.",TF,4,24
+465,What JavaScript function is used to print content in the browser console?,MCQ,4,24
+466,The <script> tag is used to define JavaScript code in HTML.,TF,4,24
+467,Which HTML attribute specifies an image's source URL?,MCQ,4,24
+468,"HTML5 introduced semantic tags like <article>, <section>, and <aside>.",TF,4,24
+469,What does CSS stand for?,MCQ,4,24
+470,CSS allows you to apply styles to multiple HTML elements.,TF,4,24
+471,What method in JavaScript adds a new element to the end of an array?,MCQ,4,24
+472,JavaScript is a statically typed programming language.,TF,4,24
+473,Which framework is commonly used for building frontend interfaces?,MCQ,4,24
+474,React is a frontend JavaScript library developed by Facebook.,TF,4,24
+475,What CSS property sets the background color of an element?,MCQ,4,24
+476,JavaScript can manipulate HTML elements through the DOM.,TF,3,24
+477,Which HTML tag is used to create a hyperlink?,MCQ,3,24
+478,The <a> tag in HTML requires an href attribute to work.,TF,3,24
+479,Which tool helps in automating frontend build processes?,MCQ,3,24
+480,Responsive design ensures websites work on all screen sizes.,TF,3,24
+481,What command is used to create a new .NET Core project?,MCQ,4,25
+482,".NET Core is an open-source, cross-platform framework.",TF,4,25
+483,Which file contains project dependencies in a .NET Core app?,MCQ,4,25
+484,The Program.cs file is the entry point of a .NET Core console application.,TF,4,25
+485,What command is used to build a .NET Core application?,MCQ,4,25
+486,The Startup.cs class is used in ASP.NET Core web applications.,TF,4,25
+487,What is the purpose of appsettings.json in a .NET Core project?,MCQ,4,25
+488,Dependency Injection is supported natively in .NET Core.,TF,4,25
+489,Which NuGet command is used to install a package?,MCQ,4,25
+490,IConfiguration is used to access configuration settings in .NET Core.,TF,4,25
+491,What is the command to run a .NET Core application?,MCQ,4,25
+492,"You can run .NET Core apps on Linux, Windows, and macOS.",TF,4,25
+493,What framework is used to build web APIs in .NET Core?,MCQ,4,25
+494,ASP.NET Core supports Razor Pages and MVC.,TF,4,25
+495,What keyword is used to define an interface in C#?,MCQ,4,25
+496,Interfaces in C# can be implemented by classes.,TF,3,25
+497,What HTTP method is used to update an existing resource in Web APIs?,MCQ,3,25
+498,The HttpGet attribute in ASP.NET Core maps HTTP GET requests.,TF,3,25
+499,Which attribute is used to validate model data in .NET Core?,MCQ,3,25
+500,Model binding in .NET Core maps incoming data to C# objects.,TF,3,25
+501,What does MEAN stand for in MEAN Stack development?,MCQ,4,26
+502,MEAN Stack uses JavaScript for both client and server-side development.,TF,4,26
+503,Which database is used in the MEAN stack?,MCQ,4,26
+504,MongoDB stores data in JSON-like documents.,TF,4,26
+505,What does Angular provide in the MEAN stack?,MCQ,4,26
+506,Angular is a front-end framework maintained by Google.,TF,4,26
+507,Which Node.js framework is commonly used to build APIs in the MEAN stack?,MCQ,4,26
+508,Express.js is used to handle HTTP requests in a Node.js application.,TF,4,26
+509,What command is used to start a new Angular project?,MCQ,4,26
+510,Angular uses components and services for modular development.,TF,4,26
+511,Which command is used to install packages in Node.js?,MCQ,4,26
+512,npm is the Node Package Manager used in MEAN projects.,TF,4,26
+513,Which method is used to fetch documents in MongoDB using Mongoose?,MCQ,4,26
+514,Mongoose is an ODM (Object Data Modeling) library for MongoDB.,TF,4,26
+515,What is the default port for a Node.js server using Express?,MCQ,4,26
+516,Express routes can be defined using app.get() and app.post().,TF,3,26
+517,How is Angular connected to the backend in a MEAN stack app?,MCQ,3,26
+518,Angular uses HTTPClient module to make API calls to the backend.,TF,3,26
+519,What data format is used in REST APIs built with MEAN stack?,MCQ,3,26
+520,JSON is commonly used to transfer data between frontend and backend.,TF,3,26
+521,What does ASP.NET stand for?,MCQ,5,27
+522,ASP.NET allows server-side code execution for dynamic web pages.,TF,5,27
+523,Which programming language is commonly used in ASP.NET development?,MCQ,5,27
+524,ASP.NET applications can be developed using C#.,TF,5,27
+525,What is the role of the Global.asax file in an ASP.NET project?,MCQ,5,27
+526,The Global.asax file is used to handle application-level events.,TF,5,27
+527,What component is responsible for routing in ASP.NET MVC?,MCQ,5,27
+528,"ASP.NET MVC separates an application into Model, View, and Controller.",TF,5,27
+529,What directive is used to include server-side code in .aspx pages?,MCQ,5,27
+530,ASP.NET supports both Web Forms and MVC frameworks.,TF,5,27
+531,What is the file extension for an ASP.NET Razor View file?,MCQ,5,27
+532,Razor syntax is used in ASP.NET for embedding C# into HTML.,TF,5,27
+533,Which class is used to access session data in ASP.NET?,MCQ,5,27
+534,ASP.NET provides built-in support for session and application state.,TF,5,27
+535,What tool is used to manage ASP.NET project dependencies?,MCQ,5,27
+536,NuGet is the package manager used in ASP.NET projects.,TF,5,27
+537,What HTTP method is typically used to submit a form in ASP.NET?,MCQ,5,27
+538,ASP.NET supports GET and POST methods in form handling.,TF,5,27
+539,What ASP.NET component handles user authentication and authorization?,MCQ,5,27
+540,ASP.NET Identity is used to manage users and roles in a web application.,TF,5,27

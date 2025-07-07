@@ -1,0 +1,89 @@
+Topic_ID,Topic_Name,Course_ID
+1,Database Fundamentals,1
+2,Advanced SQL Server,1
+3,SQL Server,1
+4,ERD,1
+5,Introduction to Data Mining,2
+6,Introduction to Cloud Computing,2
+7,Introduction to Big Data,2
+8,Introduction to Statistics,2
+9,Datawarehouse Modeling,2
+10,Microsoft SQL Server Business Intelligence,2
+11,Introduction to Transformation and Data Modelling Power BI,3
+12,Power BI Visualization,3
+13,Advanced Data Analysis using Microsoft Power BI & DAX,3
+14,Creating Tableau Dashboards,3
+15,Introduction to Programming using Python,4
+16,XML Fundamentals,4
+17,Source Control,4
+18,Operating Systems Fundamentals,5
+19,Software Testing Fundamentals,5
+20,Network Fundamentals,5
+21,Agile Workshop,5
+22,FreeLancing,6
+23,Business Communication Skills,6
+24,Interviewing Skills,6
+25,Effective Presentation Skills,6
+26,introduction to web technologies,7
+27,SQL Fundamentals,7
+28,Software Configuration,7
+29,management Fundamentals,7
+30,Java Programming,7
+31,Introduction to software testing concepts & Techniques,8
+32,ISTQB Foundation Software Testing Certification,8
+33,Effective Test case and bug report writing techniques,8
+34,Implementing Testing Techniques through projects,8
+35,User Experience: the beginner's guide,9
+36,Design Thinking for Innovation,9
+37,User Research Methods,9
+38,Usability Testing,9
+39,User Analytics and Tracking,9
+40,UX Writing,9
+41,Design Concepts Principles,10
+42,Visual Design,10
+43,Adobe Photoshop Workshop,10
+44,Adobe Illustrator Workshop,10
+45,UI Design Pattern,10
+46,UI Principles for Web,10
+47,UI Principles for Mobile,10
+48,Agile for UX Designers,11
+49,Embracing AI in UI/UX Design,11
+50,HTML & CSS,12
+51,Operating System Fundamentals,13
+52,Interconnecting Cisco Networking Devices Part 1,13
+53,Interconnecting Cisco Networking Devices Part 2,13
+54,"VMware vSphere: Install, Configure and Manage",14
+55,AWS SysOps Administration,14
+56,Microsoft Azure,14
+57,Red Hat System Administration I,15
+58,Red Hat System Administration II,15
+59,Windows Server Administration,15
+60,Web Server Administration,15
+61,Docker and Kubernetes,16
+62,Version control using Git,16
+63,DevOps Concept and toolchain,16
+64,Infrastructure as Code: Terraform,16
+65,Introduction to Python,17
+66,Bash Shell Scripting,17
+67,Adobe after effect Fundamentals,18
+68,Motion Graphic Techniques,18
+69,Advanced Motion Graphic,18
+70,Introduction to C4D,19
+71,3D Motion Graphic,19
+72,Ai Graphic Tools workshop,20
+73,Design Principles,21
+74,Design Principles,21
+75,Environment Design,21
+76,Digital Painting,22
+77,Vector Art Techniques,22
+78,Directing and Script Writing for Motion Graphics,23
+79,Story Board Essentials,23
+80,Client-Side Technologies,24
+81,HTML 5 & CSS3,24
+82,BootStrap Framework,24
+83,Visual C# .NET,25
+84,LINQ & Entity Framework,25
+85,Modern JavaScript (ES6+) and TypeScript Fundamentals,26
+86,Angular Fundamentals,26
+87,ASP. Net MVC Core,27
+88,ASP. Net Web API,27
