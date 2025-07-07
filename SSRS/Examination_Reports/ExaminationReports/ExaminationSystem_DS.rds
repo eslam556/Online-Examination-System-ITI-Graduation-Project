@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExaminationSystem_DS">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DESKTOP-UOKQPP4\SOHAILSQL;Initial Catalog="Examination System"</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+    <Prompt>Specify a user name and password for data source ExaminationSystem_DS</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>b6f97dc6-ee27-468d-9b93-ef47204ff522</DataSourceID>
+</RptDataSource>
