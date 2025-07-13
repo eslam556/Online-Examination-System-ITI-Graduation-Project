@@ -55,7 +55,7 @@ Academic institutions face challenges in managing large volumes of student asses
 5. **Power BI Reports**  
    - Interactive dashboards were built on top of each data mart for flexible slicing and drilldowns.
 
-![Project Workflow](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Project%20Workflow.jpg)
+![Project Workflow](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Project%20WorkFlow.jpg)
 
 ---
 
@@ -69,7 +69,7 @@ The ER diagram maps the academic ecosystem, defining relationships between entit
 - **One-to-Many**: Exam → Questions  
 - **Many-to-Many**: Students ↔ Exams (via Grades)
 
-![ER Diagram](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Database/ERD.jpg)
+![ER Diagram](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Database/ERD.jpg)
 
 ---
 
@@ -83,7 +83,7 @@ The logical schema models real-world academic logic:
 - `Certificates` issued based on performance  
 - `Freelancing` table links companies to eligible certified students  
 
-![Mapping](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Database/Mapping.jpg)
+![Mapping](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Database/Mappings.jpg)
 
 ---
 
@@ -95,7 +95,7 @@ Developed using **SQL Server**, the schema includes:
 - Integrity: All relationships enforced with primary and foreign keys  
 - Optimized: Indexed and normalized for high performance
 
-![Database Diagram](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Database/Database%20Diagram.jpg)
+![Database Diagram]()
 
 ---
 
