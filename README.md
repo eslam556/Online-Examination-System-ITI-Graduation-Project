@@ -144,10 +144,12 @@ Three dedicated star schema data marts were created to serve targeted analytical
 
 Focuses on individual student behavior and academic outcomes. Useful for tracking performance, dropout rates, and certificate generation trends.
 
-- **Dim_Student**: Personal details, department, branch, and demographic info  
-- **Dim_Date**: Academic terms and exam dates  
-- **Dim_Certificate**: Issued certificates with type and status  
-- **Fact_StudentPerformance**: Stores total exams taken, passed/failed status, average scores, and certificate eligibility
+- **Dim_Student**: Personal info including gender, city, department
+- **Dim_Course**: Course details and instructor
+- **Dim_Certificate**: Certificate name, date, hours, web
+- **Dim_Employment**: Jobs, internships, freelancing (company, position, tools, feedback)
+- **Dim_Date**: Calendar-based attributes (day, month, quarter, etc.) 
+- **Fact_Student_Activity**: Stores metrics such as grade value, and links to certificate/employment records.
 
 📷  
 ![Student Data Mart](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Data%20Marts/Student%20Mart.png)
@@ -158,11 +160,11 @@ Focuses on individual student behavior and academic outcomes. Useful for trackin
 
 Designed to analyze course difficulty, question design, and exam outcomes across instructors and departments.
 
-- **Dim_Course**: Title, department, level  
-- **Dim_Exam**: Duration, type, total questions  
-- **Dim_Instructor**: Instructor names and assignments  
-- **Dim_Date**: Exam sessions and deadlines  
-- **Fact_CourseExamStats**: Captures course pass rates, average scores, and number of attempts per course
+- **Dim_Course**: Instructor name, course duration, total marks
+- **Dim_Exam**: Exam details such as total questions and time limits
+- **Dim_Question**: Text, type, marks, and difficulty level
+- **Dim_Topic**: Course topics used in performance tracking
+- **Fact_Course_Performance**: Metrics like pass rate
 
 📷  
 ![Course Exam Data Mart](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Data%20Marts/Course%20%26%20Exam%20Analytics%20Mart.png)
@@ -173,10 +175,10 @@ Designed to analyze course difficulty, question design, and exam outcomes across
 
 Provides high-level performance indicators for academic institutions, supporting strategic decisions by stakeholders.
 
-- **Dim_Branch**: Institution locations and codes  
-- **Dim_Department**: Academic departments and programs  
-- **Dim_Date**: Academic years and terms  
-- **Fact_InstitutionalKPIs**: Tracks metrics such as average scores per department, number of certified students, and exam participation rates
+- **Dim_Branch**: Branch Name, Branch Id
+- **Dim_Department**: Department Name, Department Id
+- **Dim_Instructor**: Personal info including birth date, email, name
+- **Fact_Institutional_Metrics**: Metrics like enrollment count, average grade, certification rate, hiring rate
 
 📷  
 ![Institutional Data Mart](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Data%20Marts/Institutional%20Performance%20Mart.png)
@@ -211,10 +213,12 @@ Each data mart was used independently in **Power BI** to generate focused dashbo
 
 Built with **SSRS**, reports include:
 
-- **Student Grade Reports**: Per course, term, or department  
-- **Exam Analysis Reports**: Difficulty trends and average performance  
-- **Certificate Distribution**: Monitor how many and where certificates were issued  
-- **Freelancing Matches**: Track job eligibility by certification  
+- **Exam Questions & Choices**.
+- **Examination Reports**.
+- **Course Topics**.
+- **Questions & Student Answers**.
+- **Student Grades**
+- **Student Information**
 
 Reports support drill-down, filters, and export options for institutional use.
 
@@ -224,11 +228,9 @@ Reports support drill-down, filters, and export options for institutional use.
 
 A powerful admin tool developed in **C#** for:
 
-- Managing student records and course registrations  
-- Creating and assigning exams  
-- Inserting questions and choices  
-- Grading exams and issuing certificates  
-- Viewing student performance history
+- **Report Access**: View and export performance, exam, and student-related reports
+- **Password Management**: Allow users to securely update their login credentials
+- **Exam Creation Access**: Integrated access point to the web application for exam creation and management
 
 The desktop app is role-based, supporting secure access for instructors and academic staff.
 
@@ -240,7 +242,7 @@ The **Bolt AI** web app provides a user-friendly interface for students.
 
 ### ✅ Purpose
 
-Simulate an online examination experience with instant scoring and certificate issuance.
+Simulate an online examination experience with instant scoring.
 
 ### ⚙️ Key Features
 
@@ -253,15 +255,13 @@ Simulate an online examination experience with instant scoring and certificate i
   - Timer-enabled question navigation  
   - MCQ/TF support  
 
-- **Results & Certificates**  
-  - Score and feedback after submission  
-  - Downloadable certificate if passed  
+- **Results**  
+  - Score and feedback after submission
 
 ### 🔌 Backend Integration
 
 - Fetch exams for student  
 - Insert answers and compute score  
-- Save grades, generate certificate  
-- Connect certified students with freelance jobs  
+- Save grades
 
 ## [App Walkthrough](https://drive.google.com/file/d/1maKzbPZ9i4VB5gAbV4uHpc1jCFIX1Psn/view?usp=sharing)
