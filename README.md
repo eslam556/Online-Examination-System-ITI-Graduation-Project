@@ -31,8 +31,6 @@ Academic institutions face challenges in managing large volumes of student asses
 - Students can take multiple exams across different courses.  
 - Each course includes MCQ and True/False questions.  
 - Exams are assigned to instructors and connected to departments and branches.  
-- Grades are computed automatically, with instant feedback and certification.  
-- Certified students are eligible for freelancing jobs posted by companies.  
 - Exams include model answers and structured grading logic.  
 
 ---
