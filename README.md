@@ -7,10 +7,10 @@
 ---
 
 ## 👥 Team Members
-- Mohamed Saeed  
+- Omart Ashraf 
 - Eslam Mohamed  
-- Kareem Emad  
-- Mohamed Ahmed  
+- Sohail Ali
+- Mokhtar Sameh 
 
 ---
 
@@ -37,14 +37,23 @@ Academic institutions face challenges in managing large volumes of student asses
 
 ## 🚀 Project Workflow
 
-The development followed a systematic data pipeline:
+1. **Excel Data from Kaggle**  
+   - Datasets related to students, courses, exams, and grades were sourced from Kaggle.
 
-1. **Date Dimension Generation**: Calendar attributes populated for academic periods.  
-2. **ETL Process (SSIS)**: Operational data extracted, cleaned, and loaded into a Data Mart.  
-3. **Data Mart Creation**: Star schema with dimensions for analysis and reporting.  
-4. **SSRS Reports**: Built to visualize academic performance and certificate distribution.  
-5. **Desktop Application (C#)**: Enables staff to manage exams, questions, and results.  
-6. **Web Application (Bolt AI)**: Allows students to register, take exams, and view results.
+2. **Bulk Insert to SQL Server (Database Creation)**  
+   - Cleaned and prepared data was bulk inserted into SQL Server.  
+   - Database schema and relational constraints were defined.
+
+3. **SSRS Reports**  
+   - SSRS used to generate tabular and visual reports on grades, certifications, and exam analytics.
+
+4. **Three Star Schema Data Marts**  
+   - **Student Analytics**.  
+   - **Course & Exam Analytics**.  
+   - **Institutional Performance**.
+
+5. **Power BI Reports**  
+   - Interactive dashboards were built on top of each data mart for flexible slicing and drilldowns.
 
 ![Project Workflow](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Project%20Workflow.jpg)
 
@@ -92,19 +101,54 @@ Developed using **SQL Server**, the schema includes:
 
 ## 🧱 Data Mart (Star Schema)
 
-The Data Mart supports institutional analytics and reporting.
+Three dedicated star schema data marts were created to serve targeted analytical needs:
 
-### Dimension Tables
-- **Dim_Student**: Basic info, department, branch  
-- **Dim_Course**: Course name, code, department  
-- **Dim_Exam**: Date, duration, type  
-- **Dim_Instructor**: Name, assigned courses  
-- **Dim_Date**: Academic year, term, week
+---
 
-### Fact Table
-- **Fact_ExamResults**: Holds exam results, scores, pass/fail status, certificate eligibility
+### 📊 1. Student Analytics Data Mart
 
-![Data Mart Diagram](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Data%20Mart/Data%20Mart%20Model.png)
+Focuses on individual student behavior and academic outcomes. Useful for tracking performance, dropout rates, and certificate generation trends.
+
+- **Dim_Student**: Personal details, department, branch, and demographic info  
+- **Dim_Date**: Academic terms and exam dates  
+- **Dim_Certificate**: Issued certificates with type and status  
+- **Fact_StudentPerformance**: Stores total exams taken, passed/failed status, average scores, and certificate eligibility
+
+📷  
+![Student Data Mart](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Data%20Mart/Student%20Analytics%20Mart.png)
+
+---
+
+### 📚 2. Course & Exam Analytics Data Mart
+
+Designed to analyze course difficulty, question design, and exam outcomes across instructors and departments.
+
+- **Dim_Course**: Title, department, level  
+- **Dim_Exam**: Duration, type, total questions  
+- **Dim_Instructor**: Instructor names and assignments  
+- **Dim_Date**: Exam sessions and deadlines  
+- **Fact_CourseExamStats**: Captures course pass rates, average scores, and number of attempts per course
+
+📷  
+![Course Exam Data Mart](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Data%20Mart/Course%20Exam%20Analytics%20Mart.png)
+
+---
+
+### 🏫 3. Institutional Performance Data Mart
+
+Provides high-level performance indicators for academic institutions, supporting strategic decisions by stakeholders.
+
+- **Dim_Branch**: Institution locations and codes  
+- **Dim_Department**: Academic departments and programs  
+- **Dim_Date**: Academic years and terms  
+- **Fact_InstitutionalKPIs**: Tracks metrics such as average scores per department, number of certified students, and exam participation rates
+
+📷  
+![Institutional Data Mart](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Data%20Mart/Institutional%20Performance%20Mart.png)
+
+---
+
+Each data mart was used independently in **Power BI** to generate focused dashboards, enabling deep insight into specific academic KPIs.
 
 ---
 
