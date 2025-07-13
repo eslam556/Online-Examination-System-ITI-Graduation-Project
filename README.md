@@ -95,7 +95,7 @@ Developed using **SQL Server**, the schema includes:
 - Integrity: All relationships enforced with primary and foreign keys  
 - Optimized: Indexed and normalized for high performance
 
-![Database Diagram]()
+![Database Diagram](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Database/Database%20Digram.jpg)
 
 ---
 
@@ -105,7 +105,7 @@ Three dedicated star schema data marts were created to serve targeted analytical
 
 ---
 
-### 📊 1. Student Analytics Data Mart
+### 📊 1. Student Data Mart
 
 Focuses on individual student behavior and academic outcomes. Useful for tracking performance, dropout rates, and certificate generation trends.
 
@@ -115,7 +115,7 @@ Focuses on individual student behavior and academic outcomes. Useful for trackin
 - **Fact_StudentPerformance**: Stores total exams taken, passed/failed status, average scores, and certificate eligibility
 
 📷  
-![Student Data Mart](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Data%20Mart/Student%20Analytics%20Mart.png)
+![Student Data Mart](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Data%20Marts/Student%20Mart.png)
 
 ---
 
@@ -130,7 +130,7 @@ Designed to analyze course difficulty, question design, and exam outcomes across
 - **Fact_CourseExamStats**: Captures course pass rates, average scores, and number of attempts per course
 
 📷  
-![Course Exam Data Mart](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Data%20Mart/Course%20Exam%20Analytics%20Mart.png)
+![Course Exam Data Mart](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Data%20Marts/Course%20%26%20Exam%20Analytics%20Mart.png)
 
 ---
 
@@ -144,7 +144,7 @@ Provides high-level performance indicators for academic institutions, supporting
 - **Fact_InstitutionalKPIs**: Tracks metrics such as average scores per department, number of certified students, and exam participation rates
 
 📷  
-![Institutional Data Mart](https://github.com/eslam556/Online-Examination-Database-System/blob/main/Data%20Mart/Institutional%20Performance%20Mart.png)
+![Institutional Data Mart](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Data%20Marts/Institutional%20Performance%20Mart.png)
 
 ---
 
@@ -161,7 +161,14 @@ Each data mart was used independently in **Power BI** to generate focused dashbo
 - Load data into the star schema for reporting  
 - Schedule updates and enforce data consistency
 
-![ETL Pipeline](https://github.com/eslam556/Online-Examination-Database-System/blob/main/SSIS/ETL%20Pipeline.jpg)
+### 📊 1. Student Mart Pipeline
+![ETL Pipeline](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/SSIS/Student%20Data%20Mart.png)
+
+### 📊 2. Course & Exam Analytics Mart Pipeline
+![ETL Pipeline](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/SSIS/Course%20%26%20Exam%20Analytics%20Data%20Mart.png)
+
+### 📊 3. Institutional Performance Mart Pipeline
+![ETL Pipeline](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/SSIS/Institutional%20Performance%20Data%20Mart.png)
 
 ---
 
