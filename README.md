@@ -63,11 +63,20 @@ Academic institutions face challenges in managing large volumes of student asses
 
 The ER diagram maps the academic ecosystem, defining relationships between entities:
 
-- **One-to-Many**: Course → Exams  
-- **One-to-Many**: Student → Grades  
-- **One-to-Many**: Instructor → Courses  
-- **One-to-Many**: Exam → Questions  
-- **Many-to-Many**: Students ↔ Exams (via Grades)
+- **One-to-Many**: Student → Freelance  
+- **One-to-Many**: Student → Companies
+- **One-to-Many**: Student → Department
+- **One-to-Many**: Student → Student Answer
+- **One-to-Many**: Course → Topic
+- **One-to-Many**: Course → Instructor
+- **One-to-Many**: Course → Exam
+- **One-to-Many**: Course → Question Bank
+- **One-to-Many**: Question Bank → Student Answer
+- **One-to-Many**: Question Bank → Choices
+- **Many-to-Many**: Department ↔ Branch
+- **Many-to-Many**: Student ↔ Certificate
+- **Many-to-Many**: Student ↔ Course
+- **Many-to-Many**: Exam ↔ Question Bank
 
 ![ER Diagram](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Database/ERD.jpg)
 
@@ -77,11 +86,37 @@ The ER diagram maps the academic ecosystem, defining relationships between entit
 
 The logical schema models real-world academic logic:
 
-- `Students` ←→ `Grades`: Tracks student results  
-- `Exams` ←→ `Questions` ←→ `Choices`: Defines exam content  
-- `Departments`, `Branches`, and `Courses` are linked by hierarchy  
-- `Certificates` issued based on performance  
-- `Freelancing` table links companies to eligible certified students  
+### 👩‍🎓 Student Relationships
+- `Student` ⬌ `Student_Phone`: One-to-Many (a student may have multiple phone numbers)
+- `Student` ⬌ `Student_Cert`: Many-to-Many (students can earn multiple certificates)
+- `Student` ⬌ `Student_Crs`: Many-to-Many (tracks course enrollment and grades)
+- `Student` ⬌ `StudentAnswer`: One-to-Many (each student submits multiple answers)
+- `Student` ⬌ `Hiring`: One-to-Many (hired into multiple positions)
+- `Student` ⬌ `Freelancing`: One-to-Many (can apply for multiple freelance jobs)
+
+---
+
+### 🏫 Academic Structure
+- `Branch` ⬌ `Branch_Dept` ⬌ `Department`: Many-to-Many (departments exist across branches)
+- `Student` → `Dept_ID` (Foreign Key) → `Department`: Many students belong to one department
+- `Courses` → `Ins_ID` (Foreign Key) → `Instructor`: Courses are assigned to one instructor
+- `Courses` ⬌ `Topic`: One-to-Many (each course has multiple topics)
+
+---
+
+### 🧪 Exam & Questions Mapping
+- `Generated_Exam` → `Course_ID` (Foreign Key): Exams are created for specific courses
+- `Exam_Questions` ⬌ `Generated_Exam` & `QuestionBank`: Many-to-Many (exams consist of many questions; questions may appear in many exams)
+- `QuestionBank` ⬌ `Choices`: One-to-Many (each question has multiple answer choices)
+- `StudentAnswer` → `Student_ID` & answer-specific data (text, mark, etc.)
+
+---
+
+### 🏆 Certification & Performance
+- `Certificate` ⬌ `Student_Cert`: Many-to-Many (students may earn multiple certificates, and each certificate may apply to multiple students)
+- `Student_Crs` stores final grade and links each student to their enrolled courses
+
+--- 
 
 ![Mapping](https://github.com/eslam556/Online-Examination-System-ITI-Graduation-Project/blob/main/Database/Mappings.jpg)
 
@@ -91,7 +126,7 @@ The logical schema models real-world academic logic:
 
 Developed using **SQL Server**, the schema includes:
 
-- Tables: `Students`, `Courses`, `Exams`, `Questions`, `Choices`, `Grades`, `Certificates`, `Instructors`, `Freelancing`, etc.  
+- Tables: `Students`, `Courses`, `Exams`, `Questions`, `Choices`, `Certificates`, `Instructors`, `Freelancing`, etc.  
 - Integrity: All relationships enforced with primary and foreign keys  
 - Optimized: Indexed and normalized for high performance
 
@@ -230,14 +265,3 @@ Simulate an online examination experience with instant scoring and certificate i
 - Connect certified students with freelance jobs  
 
 ## [App Walkthrough](https://drive.google.com/file/d/1maKzbPZ9i4VB5gAbV4uHpc1jCFIX1Psn/view?usp=sharing)
-
----
-
-## 🔮 Conclusion & Future Enhancements
-
-This project delivers a robust online examination system for modern educational needs. Planned enhancements include:
-
-- Proctored exam sessions with live monitoring  
-- Instructor dashboard for content management  
-- AI-generated adaptive testing  
-- Integration with employer dashboards for student hiring
